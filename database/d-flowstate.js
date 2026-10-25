@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["flowstate"] = {
+  name: "Flow State",
+  category: "Performance",
+  subdomains: [
+    {
+      name: "Triggers",
+      techniques: [
+        { name: "Clear Goal Setting", tier: "Beginner", rx: "2–5 min · before each task", how: "Define a specific, challenging but achievable goal beforehand to spark focus." },
+        { name: "Deep Concentration Environment", tier: "Beginner", rx: "before flow activities", how: "Remove distractions and build a setting for uninterrupted focus." },
+        { name: "Passion Activation", tier: "Beginner", rx: "before activities", how: "Connect with genuine enthusiasm, since passion fuels flow." },
+        { name: "Immediate Feedback Loop", tier: "Intermediate", rx: "during task execution", how: "Set up rapid feedback so you instantly know how you are performing." },
+        { name: "Challenge-Skill Balance", tier: "Intermediate", rx: "when selecting tasks", how: "Match difficulty to skill to avoid boredom and anxiety." },
+        { name: "Present Moment Anchoring", tier: "Intermediate", rx: "at start; when mind wanders", how: "Focus fully on now and release past and future concerns." },
+        { name: "Autonomy Activation", tier: "Intermediate", rx: "when designing tasks", how: "Ensure a sense of control and choice to boost intrinsic motivation." },
+        { name: "Intrinsic Motivation Connection", tier: "Intermediate", rx: "before and during activities", how: "Tie the task to personal meaning and passion." },
+        { name: "Embodiment Activation", tier: "Intermediate", rx: "during physical activities", how: "Engage the body fully; physical immersion supports mental flow." },
+        { name: "Environmental Enrichment", tier: "Intermediate", rx: "before flow activities", how: "Optimize stimuli — not too much, not too little." },
+        { name: "Deep Embodiment Practice", tier: "Intermediate", rx: "before and during activities", how: "Fully inhabit the body, noticing sensations as a flow gateway." },
+        { name: "Time Pressure Calibration", tier: "Intermediate", rx: "when setting task parameters", how: "Apply a deadline that creates focus without panic." },
+        { name: "Creativity Space Creation", tier: "Intermediate", rx: "during creative activities", how: "Allow open-ended exploration with multiple possible solutions." },
+        { name: "Mastery Orientation", tier: "Intermediate", rx: "during skill development", how: "Prioritize learning and improvement over perfect performance." },
+        { name: "Sensory Engagement Optimization", tier: "Intermediate", rx: "during activities", how: "Engage multiple senses appropriately for a richer experience." },
+        { name: "Social Flow Trigger", tier: "Intermediate", rx: "during group activities", how: "Collaborate with skilled partners; social flow amplifies individual flow." },
+        { name: "Novelty Introduction", tier: "Intermediate", rx: "during extended practice", how: "Add new elements or variations to maintain engagement." },
+        { name: "Attentional Narrowing", tier: "Intermediate", rx: "at start of flow activity", how: "Focus only on task-relevant cues and block the periphery." },
+        { name: "Autotelic Experience Creation", tier: "Intermediate", rx: "during activities", how: "Make the activity rewarding for its own sake." },
+        { name: "Flow Ritual Creation", tier: "Intermediate", rx: "before flow activities", how: "Build a pre-flow ritual that signals the brain to enter flow." },
+        { name: "Risk Perception Calibration", tier: "Advanced", rx: "when designing challenges", how: "Introduce calculated stakes to heighten focus without paralysis." },
+        { name: "Unpredictability Introduction", tier: "Advanced", rx: "during extended activities", how: "Add surprise elements to sustain engagement." },
+        { name: "Complexity Engagement", tier: "Advanced", rx: "when selecting challenges", how: "Tackle multi-faceted challenges that hold attention." },
+        { name: "Ego Dissolution Practice", tier: "Advanced", rx: "before and during activities", how: "Drop self-consciousness and concerns about appearance." },
+        { name: "Control Paradox Embrace", tier: "Advanced", rx: "during high-skill activities", how: "Feel in control while surrendering control." },
+        { name: "Effortless Effort Cultivation", tier: "Advanced", rx: "during flow activities", how: "Work hard while feeling relaxed; find relaxed intensity." },
+        { name: "Transformation Edge Engagement", tier: "Advanced", rx: "during skill development", how: "Operate at the edge of current ability for growth-triggered flow." },
+        { name: "Temporal Distortion Setup", tier: "Advanced", rx: "during extended activities", how: "Create conditions where time flies or slows — a flow marker." },
+        { name: "Action-Awareness Merging", tier: "Advanced", rx: "during skilled performance", how: "Let doing and knowing become one; stop thinking about steps." },
+        { name: "Integrated Flow Trigger System", tier: "Advanced", rx: "before and during activities", how: "Combine multiple triggers simultaneously for maximum flow odds." }
+      ]
+    },
+    {
+      name: "Cultivation",
+      techniques: [
+        { name: "Flow State Tracking", tier: "Beginner", rx: "daily logging", how: "Log when flow occurs to spot the conditions, activities, and times that trigger it." },
+        { name: "Flow Recovery Protocol", tier: "Beginner", rx: "after flow sessions", how: "Recover properly after flow instead of jumping straight to the next task." },
+        { name: "Flow Environment Design", tier: "Beginner", rx: "before flow activities", how: "Design physical and digital surroundings that support flow." },
+        { name: "Flow Duration Extension", tier: "Intermediate", rx: "during flow activities", how: "Gradually lengthen flow sessions to build endurance." },
+        { name: "Flow Frequency Optimization", tier: "Intermediate", rx: "ongoing", how: "Improve conditions so flow occurs more often." },
+        { name: "Flow State Anchoring", tier: "Intermediate", rx: "during peak flow moments", how: "Pair flow with a gesture, like a thumb-finger press, to re-access it later." },
+        { name: "Flow Obstacle Identification", tier: "Intermediate", rx: "during flow reflection", how: "Spot what blocks flow and remove blockers systematically." },
+        { name: "Flow Ritual Development", tier: "Intermediate", rx: "before flow activities", how: "Build a reliable pre-flow ritual to automate flow entry." },
+        { name: "Flow State Recognition", tier: "Intermediate", rx: "during activities", how: "Learn early indicators of flow like time speeding up and fading self-consciousness." },
+        { name: "Flow Exit Management", tier: "Intermediate", rx: "when flow ends", how: "Exit gracefully; transition gently instead of crashing into stimulation." },
+        { name: "Flow Integration Practice", tier: "Intermediate", rx: "after flow sessions", how: "Apply insights and creativity gained in flow to daily life." },
+        { name: "Flow Fatigue Management", tier: "Intermediate", rx: "during extended flow", how: "Recognize fatigue and stop before flow quality degrades." },
+        { name: "Flow State Cycling", tier: "Intermediate", rx: "throughout the day", how: "Alternate flow and recovery blocks, e.g. 90 minutes flow then 20 minutes rest." },
+        { name: "Flow State Documentation", tier: "Intermediate", rx: "after flow sessions", how: "Journal duration, depth, triggers, obstacles, and quality to build a knowledge base." },
+        { name: "Flow Trigger Experimentation", tier: "Intermediate", rx: "during flow practice", how: "Test different triggers to discover what works best personally." },
+        { name: "Flow State Prediction", tier: "Intermediate", rx: "during planning", how: "Predict likely flow windows and schedule important work there." },
+        { name: "Flow Energy Management", tier: "Intermediate", rx: "daily", how: "Protect sleep, nutrition, and exercise so energy supports flow." },
+        { name: "Flow Mastery Tracking", tier: "Intermediate", rx: "monthly review", how: "Track frequency, duration, depth, and ease of entry to measure progress." },
+        { name: "Flow Obstacle Elimination", tier: "Intermediate", rx: "ongoing", how: "Systematically remove interruptions, clutter, and unclear goals." },
+        { name: "Flow Depth Exploration", tier: "Advanced", rx: "during extended flow", how: "Explore subtler levels: deeper time distortion, less self-consciousness." },
+        { name: "Flow State Stabilization", tier: "Advanced", rx: "during flow activities", how: "Maintain steady flow without peaks and valleys." },
+        { name: "Flow Transfer Training", tier: "Advanced", rx: "when entering new domains", how: "Apply flow skills from one domain, like sports, to another, like work." },
+        { name: "Flow Under Pressure", tier: "Advanced", rx: "during high-stakes situations", how: "Train to enter flow even when stakes are high." },
+        { name: "Flow Quality Refinement", tier: "Advanced", rx: "during flow practice", how: "Continuously refine conditions for deeper, clearer, more stable flow." },
+        { name: "Flow State Maintenance", tier: "Advanced", rx: "during flow activities", how: "Sustain flow despite minor distractions like a buzzing phone." },
+        { name: "Flow Recovery Speed", tier: "Advanced", rx: "when flow is interrupted", how: "Return to flow quickly, e.g. within 30 seconds, after disruption." },
+        { name: "Flow State Generalization", tier: "Advanced", rx: "ongoing", how: "Apply flow principles across work, relationships, hobbies, and chores." },
+        { name: "Flow State Teaching", tier: "Advanced", rx: "when appropriate", how: "Teach flow to others; explaining deepens your own mastery." },
+        { name: "Flow State Optimization", tier: "Advanced", rx: "ongoing", how: "Keep refining environment, triggers, timing, and recovery for peak flow." },
+        { name: "Integrated Flow Cultivation System", tier: "Advanced", rx: "ongoing", how: "Combine all cultivation techniques into a comprehensive daily system." }
+      ]
+    }
+  ]
+};

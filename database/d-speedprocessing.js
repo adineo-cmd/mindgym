@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["speedprocessing"] = {
+  name: "Speed Reading & Info Processing",
+  category: "Domains",
+  subdomains: [
+    {
+      name: "Visual",
+      techniques: [
+        { name: "Meta-Guiding (Pointer Method)", tier: "Beginner", rx: "all reading sessions", how: "Guide your eyes with a finger, pen, or cursor moving rapidly across each line." },
+        { name: "Regression Prevention", tier: "Beginner", rx: "during focused reading", how: "Cover already-read text with a card to block backward eye jumps." },
+        { name: "Rapid Serial Visual Presentation (RSVP)", tier: "Beginner", rx: "10–15 min · daily", how: "Use software that flashes single words at high speed in your central vision." },
+        { name: "Visual Scanning (Z-Pattern)", tier: "Beginner", rx: "when previewing", how: "Move your eyes in a Z shape to find keywords and headers." },
+        { name: "Eye Muscle Relaxation", tier: "Beginner", rx: "every 20 min of reading", how: "Use palming or eye rolls to prevent fatigue that slows processing." },
+        { name: "Visual Previewing", tier: "Beginner", rx: "60 s · before each document", how: "Scan headings, bold text, and images for 60 seconds before reading." },
+        { name: "Visual Tracking Drills", tier: "Beginner", rx: "3–5 min · daily", how: "Track a swinging object with your eyes only, keeping your head still." },
+        { name: "Lighting Optimization", tier: "Beginner", rx: "before reading", how: "Use bright, cool-toned, shadow-free lighting to reduce visual load." },
+        { name: "Digital Visual Hygiene", tier: "Beginner", rx: "every 20 min of screens", how: "Apply the 20-20-20 rule to prevent digital eye strain." },
+        { name: "Visual Processing Warm-up", tier: "Beginner", rx: "2 min · before deep reading", how: "Scan rapid random text for two minutes before serious reading." },
+        { name: "Bionic Reading Formatting", tier: "Beginner", rx: "during digital reading", how: "Use tools that bold word-initial letters to guide the eye and cut fixation time." },
+        { name: "Subvocalization Elimination", tier: "Intermediate", rx: "during speed reading", how: "Suppress the inner voice while scanning text." },
+        { name: "Peripheral Vision Expansion", tier: "Intermediate", rx: "10 min · daily drills", how: "Soften your gaze to take in three or four words on each side of your focus point." },
+        { name: "Saccade Optimization", tier: "Intermediate", rx: "during reading practice", how: "Make fewer eye jumps per line by fixating on the third and third-to-last words." },
+        { name: "Chunking (Word Grouping)", tier: "Intermediate", rx: "15 min · daily", how: "Capture three to five words per fixation instead of one." },
+        { name: "Visual Scanning (S-Pattern)", tier: "Intermediate", rx: "when skimming dense text", how: "Move your eyes in a winding S shape down the center of the text." },
+        { name: "Pacing Acceleration", tier: "Intermediate", rx: "5 min · before reading", how: "Push your visual guide past your comprehension limit, then dial back." },
+        { name: "Fixation Duration Reduction", tier: "Intermediate", rx: "during meta-guiding", how: "Spend less time resting on each word group." },
+        { name: "Columnar Reading", tier: "Intermediate", rx: "for formatted text", how: "Read straight down a narrow column rather than across a page." },
+        { name: "Visual Pattern Recognition", tier: "Intermediate", rx: "when skimming", how: "Spot recurring patterns like however and in conclusion to skip filler." },
+        { name: "Margin Utilization", tier: "Intermediate", rx: "during speed reading", how: "Start at the second or third word and stop before the line's end, relying on periphery." },
+        { name: "Visual Keyword Highlighting", tier: "Intermediate", rx: "during active reading", how: "Lock onto nouns and verbs and skip articles and prepositions." },
+        { name: "Speed-Comprehension Calibration", tier: "Intermediate", rx: "during practice sessions", how: "Vary your reading speed and rate comprehension to find your optimum." },
+        { name: "Anti-Regression Mental Framing", tier: "Intermediate", rx: "when the urge arises", how: "Reframe re-reading urges as weakness and build resistance to them." },
+        { name: "Contrast Sensitivity Training", tier: "Advanced", rx: "5 min · daily drills", how: "Read low-contrast or unusual-font text to strengthen processing." },
+        { name: "Tachistoscope Training", tier: "Advanced", rx: "5–10 min · daily", how: "Use apps that flash images or words for milliseconds to boost capture speed." },
+        { name: "Soft Focus Reading", tier: "Advanced", rx: "during high-speed skimming", how: "Relax your eyes to take in a paragraph's overall shape and gestalt." },
+        { name: "Visual Chunking Expansion", tier: "Advanced", rx: "weekly progression", how: "Grow your fixation span from two to five words progressively." },
+        { name: "Visual Memory Flash", tier: "Advanced", rx: "10 min · daily drills", how: "View a complex image for five seconds, then draw it from memory." },
+        { name: "Integrated Visual Speed System", tier: "Advanced", rx: "ongoing practice", how: "Combine meta-guiding, peripheral expansion, and subvocalization suppression into one motion." }
+      ]
+    },
+    {
+      name: "Comprehension",
+      techniques: [
+        { name: "Structural Mapping (Scanning)", tier: "Beginner", rx: "first 5–10 min of material", how: "Read the table of contents, headings, and conclusion first to build a mental skeleton." },
+        { name: "Question-Driven Reading", tier: "Beginner", rx: "before each session", how: "Set three to five questions the text should answer before you read it." },
+        { name: "First and Last Sentence Focus", tier: "Beginner", rx: "during skimming", how: "Read only the opening and closing sentences of paragraphs for topic and conclusion." },
+        { name: "Information Triage", tier: "Beginner", rx: "at research start", how: "Sort information into Must Know, Should Know, and Nice to Know." },
+        { name: "Comprehension Checkpoints", tier: "Intermediate", rx: "every 2–3 pages", how: "Pause every two to three pages for a ten-second mental summary." },
+        { name: "Keyword Extraction", tier: "Intermediate", rx: "during first-pass reading", how: "Isolate the three to five critical nouns and verbs carrying the core meaning." },
+        { name: "Rapid Summarization", tier: "Intermediate", rx: "per section or chapter", how: "Summarize a chapter in exactly one sentence after reading it." },
+        { name: "The 80/20 Comprehension Rule", tier: "Intermediate", rx: "during text assessment", how: "Focus effort on the 20 percent of text holding 80 percent of the value." },
+        { name: "Analogical Compression", tier: "Intermediate", rx: "for dense material", how: "Translate jargon-heavy concepts into everyday analogies." },
+        { name: "Active Marginalia", tier: "Intermediate", rx: "during deep reading", how: "Write brief, aggressive notes and questions in the margins to stay engaged." },
+        { name: "Concept Prerequisite Checking", tier: "Intermediate", rx: "when comprehension drops", how: "Identify and fill missing foundational knowledge gaps first." },
+        { name: "Visual Summarization (Mind Mapping)", tier: "Intermediate", rx: "after complex sections", how: "Convert linear text into a mind map to see relationships." },
+        { name: "Feynman Technique Application", tier: "Intermediate", rx: "after learning concepts", how: "Explain the material aloud simply; stumbling reveals your gaps." },
+        { name: "Speed Listening Comprehension", tier: "Intermediate", rx: "during commutes or chores", how: "Listen to audiobooks or podcasts at 1.5x to 2.5x to train fast processing." },
+        { name: "Contextual Priming", tier: "Intermediate", rx: "5 min · before complex texts", how: "Spend five minutes researching the author's background and context before reading." },
+        { name: "Jargon Decoding", tier: "Intermediate", rx: "when entering a field", how: "Build a personal simplified glossary of field-specific terms." },
+        { name: "Visual Data Interpretation", tier: "Intermediate", rx: "when reviewing reports", how: "Read charts and graphs before the text to grasp the data story." },
+        { name: "Elimination of Redundancy", tier: "Intermediate", rx: "during skimming or deep reading", how: "Recognize and skip repetitive examples or restatements." },
+        { name: "Rapid Note Synthesis", tier: "Intermediate", rx: "during fast lectures", how: "Take abbreviated shorthand notes to keep pace with fast reading." },
+        { name: "Cognitive Load Management", tier: "Intermediate", rx: "15-min micro-sessions", how: "Break dense texts into 15-minute micro-sessions." },
+        { name: "Purpose-Driven Filtering", tier: "Advanced", rx: "before every session", how: "Define a hyper-specific purpose and ignore everything else." },
+        { name: "Syntopic Reading", tier: "Advanced", rx: "for deep dives", how: "Read multiple works on one topic simultaneously for synthesis." },
+        { name: "Argument Deconstruction", tier: "Advanced", rx: "for persuasive text", how: "Identify the core claim, evidence, and assumptions of persuasive text." },
+        { name: "Predictive Comprehension", tier: "Advanced", rx: "during continuous reading", how: "Constantly predict what comes next and verify it." },
+        { name: "Comparative Comprehension", tier: "Advanced", rx: "for controversial topics", how: "Read opposing viewpoints back-to-back to grasp the debate's nuances." },
+        { name: "Meta-Comprehension Monitoring", tier: "Advanced", rx: "throughout reading", how: "Ask whether you truly understand or just recognize the words." },
+        { name: "Thematic Thread Tracking", tier: "Advanced", rx: "during book-length reading", how: "Track one main theme and how each section ties to it." },
+        { name: "Dialectical Comprehension", tier: "Advanced", rx: "during academic reading", how: "Mentally argue against the text to test your comprehension and its logic." },
+        { name: "Speed Comprehension Drills", tier: "Advanced", rx: "10 min · daily", how: "Read a dense article at maximum speed, then write three takeaways." },
+        { name: "Integrated Comprehension Architecture", tier: "Advanced", rx: "ongoing practice", how: "Combine structural mapping, question-setting, and summarization into one workflow." }
+      ]
+    }
+  ]
+};

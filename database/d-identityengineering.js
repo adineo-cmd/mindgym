@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["identityengineering"] = {
+  name: "Identity & Belief Architecture",
+  category: "Domains",
+  subdomains: [
+    {
+      name: "Belief Systems",
+      techniques: [
+        { name: "Belief Language Refinement", tier: "Beginner", rx: "when noticing rigid self-talk", how: "Soften absolute self-talk like always and never into flexible terms." },
+        { name: "Belief Affirmation Practice", tier: "Beginner", rx: "daily affirmation practice", how: "Use targeted, repeated affirmations to reinforce empowering beliefs." },
+        { name: "Core Belief Identification", tier: "Intermediate", rx: "during deep self-reflection or journaling", how: "Uncover the fundamental beliefs driving your thoughts, emotions, and behavior." },
+        { name: "Belief Origin Tracing", tier: "Intermediate", rx: "during belief examination", how: "Trace beliefs back to sources like childhood, culture, or trauma." },
+        { name: "Belief Evidence Testing", tier: "Intermediate", rx: "when questioning limiting beliefs", how: "Test a belief's validity by weighing evidence for and against it." },
+        { name: "Limiting Belief Reframing", tier: "Intermediate", rx: "when identifying self-limiting thoughts", how: "Consciously transform limiting beliefs into empowering ones." },
+        { name: "Belief-Behavior Alignment Check", tier: "Intermediate", rx: "regular self-audit", how: "Spot contradictions between your actions and your stated beliefs." },
+        { name: "Empowering Belief Installation", tier: "Intermediate", rx: "during personal development work", how: "Adopt and reinforce beliefs that support growth and well-being." },
+        { name: "Cultural Belief Examination", tier: "Intermediate", rx: "during identity exploration", how: "Review inherited cultural and family beliefs and choose which to keep." },
+        { name: "Belief Emotional Charge Assessment", tier: "Intermediate", rx: "when beliefs trigger strong emotions", how: "Notice strong emotional intensity attached to specific beliefs." },
+        { name: "Belief Behavioral Experimentation", tier: "Intermediate", rx: "when questioning belief validity", how: "Test beliefs through small real-world experiments." },
+        { name: "Belief Visualization Reinforcement", tier: "Intermediate", rx: "daily belief reinforcement", how: "Visualize living from empowering beliefs to strengthen them." },
+        { name: "Belief Community Alignment", tier: "Intermediate", rx: "when building social environment", how: "Spend time with people who hold growth-supporting beliefs." },
+        { name: "Belief Trigger Identification", tier: "Intermediate", rx: "during belief pattern recognition", how: "Spot situations that activate limiting beliefs and prepare responses." },
+        { name: "Belief Future Pacing", tier: "Intermediate", rx: "before challenging situations", how: "Project empowering beliefs into future scenarios to pre-install confidence." },
+        { name: "Belief Impact Assessment", tier: "Intermediate", rx: "during belief system review", how: "Evaluate which belief changes would yield the most life benefit." },
+        { name: "Belief Language Pattern Recognition", tier: "Intermediate", rx: "during self-talk monitoring", how: "Identify linguistic patterns like absolutes and negatives that reveal limiting beliefs." },
+        { name: "Belief Values Alignment", tier: "Intermediate", rx: "during values clarification", how: "Update beliefs that conflict with your core values." },
+        { name: "Belief Recovery Protocol", tier: "Intermediate", rx: "when old patterns emerge", how: "Follow a set sequence to return to an empowered state when old beliefs resurface." },
+        { name: "Belief Teaching Reinforcement", tier: "Intermediate", rx: "when appropriate to share", how: "Teach empowering beliefs to others to deepen your own integration." },
+        { name: "Belief Hierarchy Mapping", tier: "Advanced", rx: "during comprehensive belief audit", how: "Map beliefs by importance and influence across life areas." },
+        { name: "Belief Flexibility Cultivation", tier: "Advanced", rx: "ongoing belief practice", how: "Hold beliefs lightly and update them as evidence warrants." },
+        { name: "Belief Contradiction Resolution", tier: "Advanced", rx: "when experiencing internal tension", how: "Resolve contradictory beliefs that cause internal conflict." },
+        { name: "Belief Identity Integration", tier: "Advanced", rx: "during identity development", how: "Align your beliefs with the identity you want to develop." },
+        { name: "Belief System Audit", tier: "Advanced", rx: "annual or at major life transitions", how: "Comprehensively review your limiting, empowering, and neutral beliefs." },
+        { name: "Belief Story Rewriting", tier: "Advanced", rx: "during identity work", how: "Rewrite narratives that reinforce limiting beliefs into empowering stories." },
+        { name: "Belief Somatic Integration", tier: "Advanced", rx: "during belief work with body awareness", how: "Work with how beliefs manifest physically and release limiting beliefs somatically." },
+        { name: "Belief Contradiction Tolerance", tier: "Advanced", rx: "when facing complex life situations", how: "Grow comfortable holding seemingly contradictory beliefs." },
+        { name: "Belief Evolution Tracking", tier: "Advanced", rx: "quarterly belief review", how: "Track belief changes over time and celebrate growth." },
+        { name: "Integrated Belief Engineering System", tier: "Advanced", rx: "ongoing identity development", how: "Combine all belief techniques into a full identity foundation." }
+      ]
+    },
+    {
+      name: "Identity Shift",
+      techniques: [
+        { name: "Identity Language Shift", tier: "Beginner", rx: "ongoing identity reinforcement", how: "Adjust self-talk wording to match the desired identity because words shape identity." },
+        { name: "Identity Micro-Shifts", tier: "Beginner", rx: "daily identity practice", how: "Make small incremental identity changes that compound instead of overwhelming transformation." },
+        { name: "Identity Celebration Practice", tier: "Beginner", rx: "at identity achievements", how: "Acknowledge identity milestones to reinforce progress." },
+        { name: "Identity Vision Crafting", tier: "Intermediate", rx: "during identity development phase", how: "Define a vivid, emotionally compelling vision of who you want to become." },
+        { name: "Current Identity Audit", tier: "Intermediate", rx: "before identity shift work", how: "Honestly assess who you believe you are now, including strengths and limits." },
+        { name: "Identity Gap Analysis", tier: "Intermediate", rx: "during identity planning", how: "Identify the gap between current and desired identity and break it into manageable steps." },
+        { name: "Identity Affirmation Practice", tier: "Intermediate", rx: "daily identity reinforcement", how: "Speak and act as if you already hold the desired identity." },
+        { name: "Identity Evidence Collection", tier: "Intermediate", rx: "ongoing identity development", how: "Gather proof of desired identity traits in your actions." },
+        { name: "Identity Environment Design", tier: "Intermediate", rx: "during identity transition", how: "Shape physical and social surroundings to make the new identity easier." },
+        { name: "Identity Role Modeling", tier: "Intermediate", rx: "during identity development", how: "Study and emulate people who embody your desired identity." },
+        { name: "Identity Behavioral Rehearsal", tier: "Intermediate", rx: "before high-stakes identity moments", how: "Practice desired-identity behaviors in low-stakes settings to build muscle memory." },
+        { name: "Identity Feedback Integration", tier: "Intermediate", rx: "regular identity check-ins", how: "Seek others' perceptions of your identity and adjust accordingly." },
+        { name: "Identity Community Selection", tier: "Intermediate", rx: "during identity development", how: "Spend time with people who treat you as your desired identity." },
+        { name: "Identity Visualization Practice", tier: "Intermediate", rx: "daily identity visualization", how: "Vividly imagine yourself as the desired identity using all senses." },
+        { name: "Identity Integration Ritual", tier: "Intermediate", rx: "at identity milestones", how: "Create a ceremony to mark identity transitions." },
+        { name: "Identity Accountability System", tier: "Intermediate", rx: "during identity development", how: "Build external accountability for living as your desired identity." },
+        { name: "Identity Future Self Dialogue", tier: "Intermediate", rx: "during identity planning", how: "Hold imagined conversations with your future self for wisdom and motivation." },
+        { name: "Identity Values Embodiment", tier: "Intermediate", rx: "during identity design", how: "Ensure the desired identity expresses your core values rather than a performed persona." },
+        { name: "Identity Skill Stacking", tier: "Intermediate", rx: "during identity development", how: "Systematically develop the skills needed for the desired identity." },
+        { name: "Identity Failure Reframing", tier: "Intermediate", rx: "when facing identity challenges", how: "Treat setbacks as part of identity evolution rather than evidence against it." },
+        { name: "Identity Energy Management", tier: "Intermediate", rx: "during identity transition", how: "Manage energy to avoid identity fatigue during transitions." },
+        { name: "Identity Reflection Protocol", tier: "Intermediate", rx: "weekly identity reflection", how: "Regularly reflect on identity progress and adjust the approach." },
+        { name: "Identity Compassion Practice", tier: "Intermediate", rx: "when facing identity challenges", how: "Use self-compassion during identity transition instead of self-criticism." },
+        { name: "Identity Story Rewriting", tier: "Advanced", rx: "during identity transformation", how: "Rewrite your personal narrative to align with the desired identity, such as shy becoming selectively social." },
+        { name: "Identity Trigger Management", tier: "Advanced", rx: "during identity transition", how: "Identify situations that trigger the old identity and prepare empowered responses." },
+        { name: "Identity Resistance Navigation", tier: "Advanced", rx: "when facing identity shift challenges", how: "Anticipate and work with internal resistance to identity change." },
+        { name: "Identity Shadow Integration", tier: "Advanced", rx: "during deep identity work", how: "Integrate disowned self-aspects to become whole, not just positive." },
+        { name: "Identity Flexibility Cultivation", tier: "Advanced", rx: "ongoing identity refinement", how: "Build an identity stable in values but flexible in expression across contexts." },
+        { name: "Identity Legacy Consideration", tier: "Advanced", rx: "during identity visioning", how: "Connect the desired identity to lasting impact and legacy." },
+        { name: "Integrated Identity Shift System", tier: "Advanced", rx: "ongoing identity development", how: "Combine all techniques into a comprehensive transformation process." }
+      ]
+    }
+  ]
+};

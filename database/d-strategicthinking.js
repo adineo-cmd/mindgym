@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["strategicthinking"] = {
+  name: "Strategic Thinking",
+  category: "Cognition",
+  subdomains: [
+    {
+      name: "Decision Making",
+      techniques: [
+        { name: "Reversibility Assessment", tier: "Beginner", rx: "before making decisions", how: "Classify choices as reversible or irreversible and calibrate deliberation time accordingly." },
+        { name: "Decision Journal Practice", tier: "Beginner", rx: "for all significant decisions", how: "Record decisions, reasoning, and expected outcomes; review later to learn." },
+        { name: "Decision Fatigue Management", tier: "Beginner", rx: "daily decision scheduling", how: "Tackle key decisions early and automate trivial ones to save mental energy." },
+        { name: "Decision Reversibility Practice", tier: "Beginner", rx: "daily low-risk practice", how: "Practice making reversible decisions quickly, building comfort with uncertainty and iteration." },
+        { name: "OODA Loop Application", tier: "Intermediate", rx: "during dynamic situations", how: "Continuously cycle through Observe, Orient, Decide, Act." },
+        { name: "Second-Order Thinking", tier: "Intermediate", rx: "15–30 min · before major decisions", how: "Trace ripple effects beyond immediate consequences." },
+        { name: "Inversion Mental Model", tier: "Intermediate", rx: "20–40 min · during planning", how: "Work backward from failure causes and avoid them." },
+        { name: "Probabilistic Thinking", tier: "Intermediate", rx: "10–20 min · under uncertainty", how: "Assign probabilities and use expected value rather than certainty." },
+        { name: "Pre-Mortem Analysis", tier: "Intermediate", rx: "30 min · before finalizing decisions", how: "Imagine the decision failed, then prevent the identified causes." },
+        { name: "Circle of Competence Awareness", tier: "Intermediate", rx: "before making decisions", how: "Decide only within your understanding or seek expert help." },
+        { name: "Margin of Safety Principle", tier: "Intermediate", rx: "during planning", how: "Build buffers; never assume the best case." },
+        { name: "Opportunity Cost Evaluation", tier: "Intermediate", rx: "10–15 min · when choosing", how: "Explicitly weigh what you give up with each option." },
+        { name: "Sunk Cost Recognition", tier: "Intermediate", rx: "when continuing a failing course", how: "Ignore past investments; judge only future costs and benefits." },
+        { name: "Decision Velocity Training", tier: "Intermediate", rx: "daily low-stakes practice", how: "Make good decisions faster without losing quality." },
+        { name: "Decision Matrix Construction", tier: "Intermediate", rx: "30 min · for complex choices", how: "Score weighted criteria across options objectively." },
+        { name: "Regret Minimization Framework", tier: "Intermediate", rx: "for life-changing decisions", how: "Project yourself to age 80 and pick the choice minimizing regret." },
+        { name: "Kill Criteria Definition", tier: "Intermediate", rx: "before starting projects", how: "Set abandonment triggers in advance to cut losses rationally." },
+        { name: "Base Rate Consideration", tier: "Intermediate", rx: "when predicting or deciding", how: "Use statistical base rates over vivid anecdotes." },
+        { name: "Stakeholder Impact Analysis", tier: "Intermediate", rx: "20 min · for decisions affecting others", how: "Map all affected parties and optimize for the key ones." },
+        { name: "Constraint Identification", tier: "Intermediate", rx: "when feeling stuck", how: "Separate real limits from assumed ones to expand options." },
+        { name: "Decision Pre-Commitment", tier: "Intermediate", rx: "before facing temptation", how: "Bind yourself in advance so deviation is harder." },
+        { name: "Decision Speed-Accuracy Balance", tier: "Intermediate", rx: "throughout decision process", how: "Match accuracy targets to decision size; avoid paralysis." },
+        { name: "Feedback Loop Integration", tier: "Intermediate", rx: "after implementing decisions", how: "Adjust course using rapid feedback instead of sticking rigidly to plan." },
+        { name: "Bias Identification Protocol", tier: "Advanced", rx: "10 min · before finalizing", how: "Spot biases like anchoring or confirmation bias and correct for them." },
+        { name: "Scenario Planning Method", tier: "Advanced", rx: "1–2 hours · for strategy", how: "Build best, worst, and likely scenarios and choose robust strategies." },
+        { name: "Red Team Analysis", tier: "Advanced", rx: "30 min · before major decisions", how: "Have someone argue against your choice to stress-test it." },
+        { name: "Decision Quality vs Outcome Separation", tier: "Advanced", rx: "when reviewing decisions", how: "Judge the process, not results — good process can yield bad outcomes." },
+        { name: "Multi-Perspective Decision Making", tier: "Advanced", rx: "30 min · for complex decisions", how: "Integrate short-term, long-term, emotional, and rational views." },
+        { name: "Decision-Making Heuristics Development", tier: "Advanced", rx: "after multiple decisions", how: "Build personal rules of thumb to cut cognitive load." },
+        { name: "Integrated Decision Architecture", tier: "Advanced", rx: "ongoing", how: "Merge all frameworks into a personalized decision system." }
+      ]
+    },
+    {
+      name: "Pattern Recognition",
+      techniques: [
+        { name: "Pattern Interrupt Detection", tier: "Intermediate", rx: "during observation", how: "Notice when familiar patterns break and investigate anomalies." },
+        { name: "Temporal Pattern Analysis", tier: "Intermediate", rx: "weekly/monthly review", how: "Spot cycles, trends, and seasonality over time." },
+        { name: "Behavioral Pattern Recognition", tier: "Intermediate", rx: "during interactions", how: "Predict people's actions from repeated behavior." },
+        { name: "Causal Pattern Identification", tier: "Intermediate", rx: "when analyzing variables", how: "Distinguish true cause-effect from correlation." },
+        { name: "Pattern Frequency Analysis", tier: "Intermediate", rx: "during data analysis", how: "Count occurrences to prioritize high-frequency patterns." },
+        { name: "Pattern Strength Assessment", tier: "Intermediate", rx: "when validating patterns", how: "Gauge consistency to set confidence levels." },
+        { name: "Pattern Generalization", tier: "Intermediate", rx: "after identifying patterns", how: "Extract transferable principles from specifics." },
+        { name: "Pattern Specificity Recognition", tier: "Intermediate", rx: "when applying patterns", how: "Know when patterns only hold in certain contexts." },
+        { name: "Pattern Prediction Testing", tier: "Intermediate", rx: "after identification", how: "Make predictions and verify or refine their accuracy." },
+        { name: "Historical Pattern Recognition", tier: "Intermediate", rx: "during strategic planning", how: "Learn recurring patterns from past events." },
+        { name: "Pattern Visualization Mapping", tier: "Intermediate", rx: "30–60 min · analysis", how: "Map patterns visually to see relationships." },
+        { name: "Pattern Interruption Creation", tier: "Intermediate", rx: "when patterns no longer serve", how: "Deliberately break automatic patterns to create change." },
+        { name: "Pattern Validation Protocol", tier: "Intermediate", rx: "after hypothesis forms", how: "Validate with data to avoid confirmation bias." },
+        { name: "Cross-Domain Pattern Mapping", tier: "Advanced", rx: "30 min · when learning new domains", how: "Transfer the same pattern across different fields." },
+        { name: "Structural Pattern Extraction", tier: "Advanced", rx: "20–40 min · on complex problems", how: "See the deep structure beneath surface details." },
+        { name: "Feedback Loop Mapping", tier: "Advanced", rx: "30 min · system analysis", how: "Identify reinforcing and balancing loops in systems." },
+        { name: "Emergent Pattern Recognition", tier: "Advanced", rx: "when observing complex systems", how: "See macro patterns arising from micro behaviors." },
+        { name: "Hidden Pattern Discovery", tier: "Advanced", rx: "deep analysis sessions", how: "Use data to reveal non-obvious patterns." },
+        { name: "Pattern Decay Detection", tier: "Advanced", rx: "ongoing monitoring", how: "Notice when established patterns expire." },
+        { name: "Multi-Level Pattern Analysis", tier: "Advanced", rx: "comprehensive analysis", how: "Integrate micro, meso, and macro levels." },
+        { name: "Anomaly Pattern Recognition", tier: "Advanced", rx: "on unusual data or events", how: "Learn from outliers and edge cases." },
+        { name: "Pattern Combination Analysis", tier: "Advanced", rx: "in complex systems", how: "Study how multiple patterns interact." },
+        { name: "Pattern Compression Technique", tier: "Advanced", rx: "after identification", how: "Distill patterns into simple rules." },
+        { name: "Pattern Evolution Tracking", tier: "Advanced", rx: "long-term monitoring", how: "Track how patterns change over time." },
+        { name: "Cross-Cultural Pattern Recognition", tier: "Advanced", rx: "cross-cultural observation", how: "Find universal patterns across cultures." },
+        { name: "Pattern Leverage Identification", tier: "Advanced", rx: "when planning interventions", how: "Find small changes with large effects." },
+        { name: "Pattern Noise Filtering", tier: "Advanced", rx: "during data analysis", how: "Distinguish real patterns from randomness." },
+        { name: "Pattern Hierarchical Analysis", tier: "Advanced", rx: "in complex systems", how: "Identify nested patterns within patterns." },
+        { name: "Pattern Transfer Learning", tier: "Advanced", rx: "when entering new domains", how: "Reuse known patterns to speed up new learning." },
+        { name: "Integrated Pattern Recognition System", tier: "Advanced", rx: "ongoing", how: "Combine all techniques into a mastery system." }
+      ]
+    }
+  ]
+};

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Mind Gym — train your brain like a muscle</title>
+<meta name="description" content="A complete training system for your mind: 41 mental models, 84 starter exercises across 7 brain muscle groups, a weekly program, and a full 30-domain technique database.">
+<meta name="theme-color" content="#2437FF">
+<meta property="og:title" content="The Mind Gym">
+<meta property="og:description" content="Train your brain like a muscle: mental models, cognitive exercises, a weekly program, and the full 30-domain technique database.">
+<meta property="og:type" content="website">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem("mg-theme");
+      if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.dataset.theme = t;
+    } catch (e) { document.documentElement.dataset.theme = "light"; }
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html" aria-label="The Mind Gym — home">
+      <svg class="brand-mark" viewBox="0 0 48 24" aria-hidden="true"><rect x="1" y="4" width="8" height="16" rx="2"/><rect x="9" y="8" width="4" height="8" rx="1"/><rect x="13" y="10" width="22" height="4" rx="1"/><rect x="35" y="8" width="4" height="8" rx="1"/><rect x="39" y="4" width="8" height="16" rx="2"/></svg>
+      <span>The Mind Gym</span>
+    </a>
+    <nav class="topnav" aria-label="Sections">
+      <a href="models.html">Models</a>
+      <a href="gym.html">The Gym</a>
+      <a href="anatomy.html">Anatomy</a>
+      <a href="games.html">Games</a>
+      <a href="program.html">Program</a>
+      <a href="database.html">Database</a>
+      <a href="about.html">About</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch theme">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.4"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5 5l1.7 1.7M17.3 17.3 19 19M19 5l-1.7 1.7M6.7 17.3 5 19"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1 class="hero-title">
+          <span class="line">Train your brain</span>
+          <span class="line">like a</span>
+          <span class="line">muscle<span class="dot">.</span></span>
+        </h1>
+        <p class="hero-sub">Mental models are the <strong>technique</strong>. Cognitive drills are the <strong>reps</strong>. The Mind Gym is a complete training system for your head — a curated starter program you can actually follow, plus the full 30-domain technique database for when you want to go deep.</p>
+        <div class="hero-cta">
+          <a class="btn btn-solid" href="gym.html">Enter the gym</a>
+          <a class="btn btn-ghost" href="models.html">Browse 41 mental models</a>
+        </div>
+        <ul class="hero-stats" aria-label="What's inside">
+          <li><strong>41</strong><span>mental models</span></li>
+          <li><strong>7</strong><span>brain muscle groups</span></li>
+          <li><strong>84</strong><span>starter exercises</span></li>
+          <li><strong>2,279</strong><span>database techniques</span></li>
+        </ul>
+      </div>
+      <div class="hero-map">
+        <div class="map-frame">
+          <svg viewBox="0 0 460 380" role="img" aria-label="A map of the brain divided into 7 trainable zones. Each zone links to its training page section.">
+            <g id="brain-zones"></g>
+            <g id="brain-labels" class="zone-labels"></g>
+          </svg>
+          <p class="map-hint">Tap a region of the brain to train it</p>
+        </div>
+        <div class="map-legend" id="map-legend" role="group" aria-label="Brain muscle groups"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="inside">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">What's inside</h2>
+        <p class="section-sub">Four rooms in this gym. The first three are the curated starter program — small enough to actually use. The fourth is the complete reference library, kept separate on purpose.</p>
+      </div>
+      <div class="entry-grid">
+        <a class="entry-card" href="models.html" style="--ec:#2437FF">
+          <h3>The Model Library</h3>
+          <p>41 mental models — what each is, why it happens, real examples, how to apply it this week, and which brain muscle it trains.</p>
+          <span class="entry-go">41 models →</span>
+        </a>
+        <a class="entry-card" href="gym.html" style="--ec:#E8590C">
+          <h3>The Brain Gym</h3>
+          <p>7 muscle groups with 12 exercises each — anatomy, weak vs. trained signs, prescriptions, and Beginner → Advanced tiers like plate weight.</p>
+          <span class="entry-go">84 exercises →</span>
+        </a>
+        <a class="entry-card" href="program.html" style="--ec:#0E9384">
+          <h3>The Program</h3>
+          <p>A ready-made weekly split, the 12 laws of cognitive mastery, and how to progress and recover — printable as a one-sheet.</p>
+          <span class="entry-go">7-day split →</span>
+        </a>
+        <a class="entry-card" href="database.html" style="--ec:#7C3AED">
+          <h3>The Technique Database</h3>
+          <p>The complete OmniMind system: 30 domains, 2,279 techniques, tiered by difficulty. Separate from the starter site because your brain processes one room at a time.</p>
+          <span class="entry-go">30 domains →</span>
+        </a>
+        <a class="entry-card" href="anatomy.html" style="--ec:#D6336C">
+          <h3>The Anatomy Guide</h3>
+          <p>What each part of the brain actually does — prefrontal cortex, hippocampus, amygdala, hypothalamus, medulla and more — and the exact exercises that train each one. The floor plan of the building you work out in.</p>
+          <span class="entry-go">17 regions →</span>
+        </a>
+        <a class="entry-card" href="games.html" style="--ec:#2F9E44">
+          <h3>Games &amp; Puzzles</h3>
+          <p>27 free, vetted games and tools — one set per muscle group, each tied to the brain region it trains. Play with a purpose: 15 minutes, at the edge of your ability, scores tracked.</p>
+          <span class="entry-go">27 free picks →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="basics">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Start here</h2>
+        <p class="section-sub">Two ideas run this whole system. Get them and everything else is just sets and reps.</p>
+      </div>
+      <div class="basics-grid">
+        <div class="basic-block">
+          <h3>A mental model is a way of thinking that works</h3>
+          <p>It's a compact explanation of how some corner of the world behaves — why people copy each other, why projects eat all your time, why you can't stop a show at episode four. Learn one and you spot it everywhere. Learn forty-one and you carry a toolkit no situation can surprise.</p>
+        </div>
+        <div class="basic-block">
+          <h3>The brain trains exactly like a muscle</h3>
+          <p>Structured stress, then recovery, then slightly more stress. That is the whole formula. Focus, memory, processing speed, learning, emotional control, reading people, grit — each is a "muscle" with its own exercises, its own progression, and its own overtraining signs. You wouldn't train biceps with random flailing; don't train your attention that way either.</p>
+        </div>
+      </div>
+      <ol class="howto">
+        <li><strong>Learn the technique.</strong> Pick mental models from the <a href="models.html">library</a> — each tells you what it is, why it happens, and how to use it this week.</li>
+        <li><strong>Do the reps.</strong> Follow the <a href="gym.html">gym</a> exercises for each muscle group, on the schedule from the <a href="program.html">weekly program</a>.</li>
+        <li><strong>Progress and recover.</strong> Add load with the rules in <a href="program.html#progress">progression &amp; recovery</a>, guided by the 12 laws. When the starter set feels light, the <a href="database.html">full database</a> is waiting.</li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p class="footer-brand"><svg class="brand-mark" viewBox="0 0 48 24" aria-hidden="true"><rect x="1" y="4" width="8" height="16" rx="2"/><rect x="9" y="8" width="4" height="8" rx="1"/><rect x="13" y="10" width="22" height="4" rx="1"/><rect x="35" y="8" width="4" height="8" rx="1"/><rect x="39" y="4" width="8" height="16" rx="2"/></svg> The Mind Gym</p>
+    <p>Model library adapted from <a href="https://www.mentalmodelsbox.com/" target="_blank" rel="noopener">Mental Models Box</a> · Technique database adapted from <a href="https://adineo-cmd.github.io/personal/mind" target="_blank" rel="noopener">OmniMind by adineo</a> · No accounts, no tracking.</p>
+  </div>
+</footer>
+
+
+<script src="shared.js"></script>
+<script src="data.js"></script>
+<script src="home.js"></script>
+</body>
+</html>

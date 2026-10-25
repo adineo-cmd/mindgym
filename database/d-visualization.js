@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["visualization"] = {
+  name: "Visualization & Neural Priming",
+  category: "Performance",
+  subdomains: [
+    {
+      name: "Mental Rehearsal",
+      techniques: [
+        { name: "Perfect Performance Visualization", tier: "Beginner", rx: "10–15 min · daily, pre-training", how: "Vividly visualize flawless skill execution using multiple senses." },
+        { name: "Outcome Visualization", tier: "Beginner", rx: "5–10 min · daily", how: "Mentally create a compelling picture of the successful end state." },
+        { name: "First-Person Perspective Rehearsal", tier: "Beginner", rx: "10–15 min · per session", how: "Rehearse through your own eyes, seeing exactly what you would see." },
+        { name: "Pre-Performance Routine Rehearsal", tier: "Beginner", rx: "10–15 min · per routine", how: "Mentally rehearse your full preparation routine until it becomes automatic." },
+        { name: "Confidence Building Rehearsal", tier: "Beginner", rx: "10–15 min · per session", how: "Recall and relive past successes to build confidence." },
+        { name: "Process Visualization", tier: "Intermediate", rx: "10–20 min · before execution", how: "Focus on step-by-step actions rather than just the outcome." },
+        { name: "Multi-Sensory Rehearsal", tier: "Intermediate", rx: "15–20 min · per session", how: "Engage all five senses to make imagery vivid and real." },
+        { name: "Error Correction Visualization", tier: "Intermediate", rx: "10–15 min · per session", how: "Visualize a mistake, then immediately visualize its correction." },
+        { name: "Slow Motion Visualization", tier: "Intermediate", rx: "10–15 min · per session", how: "Review every technical detail in ultra-slow motion." },
+        { name: "Third-Person Perspective Rehearsal", tier: "Intermediate", rx: "10–15 min · per session", how: "Observe your form from an outside viewer's angle." },
+        { name: "Emotional State Rehearsal", tier: "Intermediate", rx: "10–15 min · per session", how: "Pair target emotions with visualized performance." },
+        { name: "Environmental Rehearsal", tier: "Intermediate", rx: "15–20 min · per session", how: "Include venue details in imagery to reduce novelty on site." },
+        { name: "Recovery Visualization", tier: "Intermediate", rx: "10–15 min · per session", how: "Rehearse rapid mental resets after setbacks." },
+        { name: "Timing Rehearsal", tier: "Intermediate", rx: "real-time duration", how: "Match rehearsal length to the actual duration of the performance." },
+        { name: "Post-Performance Review Rehearsal", tier: "Intermediate", rx: "10–15 min · after performing", how: "Mentally review performances afterward to sharpen analysis skills." },
+        { name: "Team Coordination Rehearsal", tier: "Intermediate", rx: "15–20 min · per session", how: "Rehearse synchronized plays together with teammates." },
+        { name: "Energy Management Rehearsal", tier: "Intermediate", rx: "15–20 min · per session", how: "Plan pacing and stamina through imagery." },
+        { name: "Transition Rehearsal", tier: "Intermediate", rx: "10–15 min · per session", how: "Visualize seamless shifts between performance phases." },
+        { name: "Long-Term Development Rehearsal", tier: "Intermediate", rx: "10–15 min · per session", how: "Envision your progression over months and years for motivation." },
+        { name: "Pressure Scenario Rehearsal", tier: "Advanced", rx: "15–20 min · per session", how: "Build stress inoculation through high-pressure imagery." },
+        { name: "Perspective Switching Rehearsal", tier: "Advanced", rx: "15–20 min · per session", how: "Alternate between first- and third-person viewpoints." },
+        { name: "Distraction Rehearsal", tier: "Advanced", rx: "15–20 min · per session", how: "Maintain focus despite imagined interference." },
+        { name: "Fatigue State Rehearsal", tier: "Advanced", rx: "10–15 min · per session", how: "Rehearse performing well while mentally tired." },
+        { name: "Skill Integration Rehearsal", tier: "Advanced", rx: "15–20 min · per session", how: "Combine multiple skills into one fluid performance." },
+        { name: "Progressive Difficulty Rehearsal", tier: "Advanced", rx: "15–20 min · weekly progression", how: "Escalate scenario difficulty week by week." },
+        { name: "Adaptive Performance Rehearsal", tier: "Advanced", rx: "15–20 min · per session", how: "Practice adapting smoothly to unexpected changes." },
+        { name: "Opponent Prediction Rehearsal", tier: "Advanced", rx: "15–20 min · per session", how: "Anticipate opponents' moves and your responses to them." },
+        { name: "Fear Exposure Rehearsal", tier: "Advanced", rx: "15–20 min · per session", how: "Reduce fear through graduated mental exposure." },
+        { name: "Clutch Performance Rehearsal", tier: "Advanced", rx: "15–20 min · per session", how: "Rehearse succeeding in high-stakes moments." },
+        { name: "Integrated Mental Rehearsal System", tier: "Advanced", rx: "20–30 min · comprehensive sessions", how: "Stack multiple rehearsal techniques for complete preparation." }
+      ]
+    },
+    {
+      name: "Neural Priming",
+      techniques: [
+        { name: "Motor Cortex Activation", tier: "Beginner", rx: "5–10 min · pre-performance", how: "Imagined movement activates the motor cortex without physical motion." },
+        { name: "Sensory Cortex Priming", tier: "Beginner", rx: "5–10 min · pre-performance", how: "Imagined sensations heighten perceptual readiness." },
+        { name: "Mirror Neuron System Activation", tier: "Beginner", rx: "10–15 min · observation", how: "Watch or visualize experts performing to trigger mirror neurons." },
+        { name: "Neural Pathway Reinforcement", tier: "Intermediate", rx: "10–15 min · daily", how: "Repeated rehearsal strengthens the brain's skill pathways." },
+        { name: "Prefrontal Cortex Activation", tier: "Intermediate", rx: "5–10 min · pre-decision", how: "Prime executive brain areas for planning and choices." },
+        { name: "Amygdala Regulation Priming", tier: "Intermediate", rx: "10–15 min · per session", how: "Visualize calm stress responses to prime emotional regulation." },
+        { name: "Hippocampal Activation", tier: "Intermediate", rx: "5–10 min · pre-memory task", how: "Prime memory systems before demanding recall." },
+        { name: "Cerebellum Coordination Priming", tier: "Intermediate", rx: "5–10 min", how: "Prime motor coordination through imagined precise movement." },
+        { name: "Attention Network Priming", tier: "Intermediate", rx: "5–10 min", how: "Visualize focused attention to prime attention networks." },
+        { name: "Executive Function Priming", tier: "Intermediate", rx: "10–15 min", how: "Prime planning, decision-making, and inhibition systems." },
+        { name: "Working Memory Priming", tier: "Intermediate", rx: "5–10 min", how: "Visualize holding and manipulating items to prime capacity." },
+        { name: "Processing Speed Priming", tier: "Intermediate", rx: "5–10 min", how: "Prime neural circuits for rapid information processing." },
+        { name: "Cerebral Blood Flow Priming", tier: "Intermediate", rx: "5–10 min", how: "Visualize oxygen delivery to prime brain circulation." },
+        { name: "Neuroplasticity Priming", tier: "Advanced", rx: "10–15 min", how: "Envision neurons forming new connections." },
+        { name: "Neurotransmitter State Priming", tier: "Advanced", rx: "10–15 min", how: "Prime optimal brain chemistry for motivation." },
+        { name: "Brain Wave State Priming", tier: "Advanced", rx: "10–15 min", how: "Target alpha, beta, or theta states through imagery." },
+        { name: "Hemispheric Integration Priming", tier: "Advanced", rx: "10–15 min", how: "Prime whole-brain coordination of logic and creativity." },
+        { name: "Neural Efficiency Priming", tier: "Advanced", rx: "10–15 min", how: "Visualize fast, low-energy neural processing." },
+        { name: "Default Mode Network Regulation", tier: "Advanced", rx: "10–15 min", how: "Quiet internal chatter for present-moment focus." },
+        { name: "Salience Network Priming", tier: "Advanced", rx: "10–15 min", how: "Prime detection of important stimuli." },
+        { name: "Neural Synchronization Priming", tier: "Advanced", rx: "10–15 min", how: "Visualize brain regions firing in sync." },
+        { name: "Cognitive Reserve Priming", tier: "Advanced", rx: "10–15 min", how: "Envision backup pathways building resilience." },
+        { name: "Neural Pruning Priming", tier: "Advanced", rx: "10–15 min", how: "Strengthen useful connections and prune weak ones." },
+        { name: "Myelination Priming", tier: "Advanced", rx: "10–15 min", how: "Visualize pathways coated for faster signal transmission." },
+        { name: "Synaptic Plasticity Priming", tier: "Advanced", rx: "10–15 min", how: "Envision synapses strengthening with use." },
+        { name: "Neural Growth Factor Priming", tier: "Advanced", rx: "10–15 min", how: "Visualize BDNF and growth factors supporting neurons." },
+        { name: "Neural Inflammation Reduction", tier: "Advanced", rx: "10–15 min", how: "Visualize calming neural inflammation." },
+        { name: "Blood-Brain Barrier Priming", tier: "Advanced", rx: "10–15 min", how: "Envision the barrier protecting the brain." },
+        { name: "Glial Cell Activation Priming", tier: "Advanced", rx: "10–15 min", how: "Visualize astrocytes and glia supporting neurons." },
+        { name: "Integrated Neural Priming System", tier: "Advanced", rx: "15–20 min · comprehensive", how: "Stack motor, attention, emotional, and speed priming together." }
+      ]
+    }
+  ]
+};

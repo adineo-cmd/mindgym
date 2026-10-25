@@ -1,0 +1,14 @@
+{
+  "name": "The Mind Gym — train your brain like a muscle",
+  "short_name": "Mind Gym",
+  "description": "Mental models, cognitive exercises, a weekly program, and progress tracking — all on your device.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4F4EE",
+  "theme_color": "#2437FF",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

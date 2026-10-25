@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Anatomy Guide — The Mind Gym</title>
+<meta name="description" content="What each part of the brain does — prefrontal cortex, hippocampus, amygdala, hypothalamus, medulla, cerebellum and more — and exactly how to train it.">
+<meta name="theme-color" content="#2437FF">
+<meta property="og:title" content="The Mind Gym">
+<meta property="og:description" content="Train your brain like a muscle: mental models, cognitive exercises, a weekly program, and the full 30-domain technique database.">
+<meta property="og:type" content="website">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem("mg-theme");
+      if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.dataset.theme = t;
+    } catch (e) { document.documentElement.dataset.theme = "light"; }
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html" aria-label="The Mind Gym — home">
+      <svg class="brand-mark" viewBox="0 0 48 24" aria-hidden="true"><rect x="1" y="4" width="8" height="16" rx="2"/><rect x="9" y="8" width="4" height="8" rx="1"/><rect x="13" y="10" width="22" height="4" rx="1"/><rect x="35" y="8" width="4" height="8" rx="1"/><rect x="39" y="4" width="8" height="16" rx="2"/></svg>
+      <span>The Mind Gym</span>
+    </a>
+    <nav class="topnav" aria-label="Sections">
+      <a href="models.html">Models</a>
+      <a href="gym.html">The Gym</a>
+      <a href="anatomy.html" aria-current="true">Anatomy</a>
+      <a href="games.html">Games</a>
+      <a href="program.html">Program</a>
+      <a href="database.html">Database</a>
+      <a href="about.html">About</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch theme">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.4"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5 5l1.7 1.7M17.3 17.3 19 19M19 5l-1.7 1.7M6.7 17.3 5 19"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="section" id="anatomy">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">The anatomy guide</h2>
+        <p class="section-sub">Seventeen regions, what each is responsible for, and how to train it — with links straight to the exercises. One honest caveat before you start: real brains are networks, not boxes. Regions trade jobs and every map is a simplification — this one is a gym floor plan, not an atlas.</p>
+      </div>
+
+      <div class="anatomy-hero">
+        <div class="map-frame">
+          <svg id="anatomy-svg" viewBox="0 0 460 380" role="img" aria-label="A side view of the brain with 17 numbered regions. Each number links to its section below."></svg>
+          <p class="map-hint" id="anatomy-caption">Hover a numbered region to identify it</p>
+        </div>
+      </div>
+
+      <div id="anatomy-regions"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p class="footer-brand"><svg class="brand-mark" viewBox="0 0 48 24" aria-hidden="true"><rect x="1" y="4" width="8" height="16" rx="2"/><rect x="9" y="8" width="4" height="8" rx="1"/><rect x="13" y="10" width="22" height="4" rx="1"/><rect x="35" y="8" width="4" height="8" rx="1"/><rect x="39" y="4" width="8" height="16" rx="2"/></svg> The Mind Gym</p>
+    <p>Model library adapted from <a href="https://www.mentalmodelsbox.com/" target="_blank" rel="noopener">Mental Models Box</a> · Technique database adapted from <a href="https://adineo-cmd.github.io/personal/mind" target="_blank" rel="noopener">OmniMind by adineo</a> · No accounts, no tracking.</p>
+  </div>
+</footer>
+
+
+<script src="shared.js"></script>
+<script src="anatomy.js"></script>
+</body>
+</html>

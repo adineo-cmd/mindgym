@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Intelligence & Influence — The Mind Gym Database</title>
+<meta name="description" content="Social Intelligence & Influence: 90 techniques across 3 sub-domains, organized by difficulty tier. Part of the OmniMind mind-training database.">
+<meta name="theme-color" content="#2437FF">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="manifest" href="../manifest.webmanifest">
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem("mg-theme");
+      if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.dataset.theme = t;
+    } catch (e) { document.documentElement.dataset.theme = "light"; }
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body class="db-detail" data-slug="socialintelligence">
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="../index.html" aria-label="The Mind Gym — home">
+      <svg class="brand-mark" viewBox="0 0 48 24" aria-hidden="true"><rect x="1" y="4" width="8" height="16" rx="2"/><rect x="9" y="8" width="4" height="8" rx="1"/><rect x="13" y="10" width="22" height="4" rx="1"/><rect x="35" y="8" width="4" height="8" rx="1"/><rect x="39" y="4" width="8" height="16" rx="2"/></svg>
+      <span>The Mind Gym</span>
+    </a>
+    <nav class="topnav" aria-label="Sections">
+      <a href="../models.html">Models</a>
+      <a href="../gym.html">The Gym</a>
+      <a href="../anatomy.html">Anatomy</a>
+      <a href="../games.html">Games</a>
+      <a href="../program.html">Program</a>
+      <a href="../database.html" aria-current="true">Database</a>
+      <a href="../about.html">About</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch theme">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.4"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5 5l1.7 1.7M17.3 17.3 19 19M19 5l-1.7 1.7M6.7 17.3 5 19"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="section" id="db-root">
+  <div class="container">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="../database.html">Database</a> <span>/</span> <b data-crumb-name></b></nav>
+    <div id="db-content"></div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p class="footer-brand"><svg class="brand-mark" viewBox="0 0 48 24" aria-hidden="true"><rect x="1" y="4" width="8" height="16" rx="2"/><rect x="9" y="8" width="4" height="8" rx="1"/><rect x="13" y="10" width="22" height="4" rx="1"/><rect x="35" y="8" width="4" height="8" rx="1"/><rect x="39" y="4" width="8" height="16" rx="2"/></svg> The Mind Gym</p>
+    <p>Technique database adapted from <a href="https://adineo-cmd.github.io/personal/mind" target="_blank" rel="noopener">OmniMind by adineo</a>.</p>
+  </div>
+</footer>
+
+<script src="../shared.js"></script>
+<script src="d-socialintelligence.js"></script>
+<script src="../db-domain.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["meditation"] = {
+  name: "Meditation & Mindfulness",
+  category: "Core",
+  subdomains: [
+    {
+      name: "Mindfulness",
+      techniques: [
+        { name: "Breath Awareness Meditation", tier: "Beginner", rx: "10–20 min · daily", how: "Focus attention on breath sensation at nostrils or abdomen; return when mind wanders" },
+        { name: "Body Scan Meditation", tier: "Beginner", rx: "15–30 min · daily", how: "Systematically move attention through body from head to toes; notice sensations without judgment" },
+        { name: "Walking Meditation", tier: "Beginner", rx: "10–20 min · daily", how: "Walk slowly with full attention on movement, balance, and foot contact with ground" },
+        { name: "Mindful Eating Practice", tier: "Beginner", rx: "daily", how: "Eat one meal or snack with complete attention to taste, texture, smell, and sensation" },
+        { name: "Sensory Grounding Practice", tier: "Beginner", rx: "2–5 min · when needed for grounding", how: "Focus on immediate sensory input: 5 things you see, 4 feel, 3 hear, 2 smell, 1 taste" },
+        { name: "Mindful Pause Protocol", tier: "Beginner", rx: "several × / day", how: "Stop completely for 30-60 seconds; breathe and notice present moment fully" },
+        { name: "Gratitude Mindfulness", tier: "Beginner", rx: "5–10 min · daily", how: "Focus attention on things you're grateful for; feel appreciation fully" },
+        { name: "Mindful Movement Practice", tier: "Beginner", rx: "10–20 min · daily", how: "Perform simple movements (stretching, yoga) with complete attention to sensation" },
+        { name: "Nature Mindfulness Immersion", tier: "Beginner", rx: "20–60 min · weekly", how: "Spend time in nature with all senses fully engaged; notice natural details" },
+        { name: "Mindful Waiting Practice", tier: "Beginner", rx: "whenever waiting occurs", how: "Use waiting time (lines, traffic) as mindfulness opportunity; stay present" },
+        { name: "Daily Activity Mindfulness", tier: "Beginner", rx: "throughout daily activities", how: "Perform routine activities (dishes, showering) with complete mindful attention" },
+        { name: "Mindful Breathing Spaces", tier: "Beginner", rx: "daily", how: "Take 3 conscious breaths multiple times daily; reset to present moment" },
+        { name: "Mindful Transition Practice", tier: "Beginner", rx: "between all major activities", how: "Create mindful pause between activities; fully complete one before starting next" },
+        { name: "Sound Awareness Meditation", tier: "Intermediate", rx: "10–15 min · daily", how: "Listen to all sounds without labeling or judging; let sounds come and go" },
+        { name: "Thought Observation Practice", tier: "Intermediate", rx: "10–20 min · daily", how: "Watch thoughts arise and pass like clouds; don't engage or suppress" },
+        { name: "Emotion Mindfulness", tier: "Intermediate", rx: "throughout day when emotions surface", how: "Notice emotions as they arise; observe physical sensations and mental patterns" },
+        { name: "Loving-Kindness Meditation", tier: "Intermediate", rx: "10–20 min · daily", how: "Generate feelings of goodwill toward self and others through repeated phrases" },
+        { name: "Compassion Meditation", tier: "Intermediate", rx: "10–20 min · daily", how: "Cultivate compassion for suffering (self and others) through visualization and phrases" },
+        { name: "Mindful Listening Practice", tier: "Intermediate", rx: "during conversations", how: "Listen to person speaking with complete attention; no planning response while they talk" },
+        { name: "Pain Mindfulness Technique", tier: "Intermediate", rx: "when experiencing pain", how: "Observe physical pain with curiosity; separate sensation from suffering narrative" },
+        { name: "Mindful Communication", tier: "Intermediate", rx: "during important conversations", how: "Speak with full awareness of words, tone, and impact; listen with complete presence" },
+        { name: "Non-Judgmental Awareness", tier: "Intermediate", rx: "during meditation and daily life", how: "Observe all experiences without labeling good/bad; practice pure acceptance" },
+        { name: "Impermanence Contemplation", tier: "Intermediate", rx: "during meditation", how: "Observe how all experiences arise and pass; notice constant change" },
+        { name: "Beginner's Mind Practice", tier: "Intermediate", rx: "during routine activities", how: "Approach familiar experiences as if for first time; drop assumptions and expectations" },
+        { name: "Mindful Technology Use", tier: "Intermediate", rx: "during device use", how: "Use devices with intention and awareness; notice urges and effects" },
+        { name: "Mindful Inquiry Practice", tier: "Intermediate", rx: "several × / day", how: "Ask 'What is happening right now?' with genuine curiosity; investigate experience" },
+        { name: "Open Awareness Meditation", tier: "Advanced", rx: "15–30 min · daily", how: "Maintain open, non-focused awareness; allow all experiences without fixation" },
+        { name: "Interconnection Awareness", tier: "Advanced", rx: "during meditation or nature time", how: "Contemplate how all things are connected; notice interdependence" },
+        { name: "Equanimity Cultivation", tier: "Advanced", rx: "during meditation and life challenges", how: "Maintain balanced mind amid pleasant and unpleasant experiences; don't chase or avoid" },
+        { name: "Integrated Mindfulness Lifestyle", tier: "Advanced", rx: "ongoing", how: "Weave mindfulness throughout entire day; formal practice supports informal moments" }
+      ]
+    },
+    {
+      name: "Concentration",
+      techniques: [
+        { name: "Single-Point Concentration", tier: "Beginner", rx: "10–20 min · daily", how: "Focus attention on single object (candle, dot, breath); hold without distraction" },
+        { name: "Mantra Repetition Focus", tier: "Beginner", rx: "15–30 min · daily", how: "Repeat word or phrase silently; use as anchor for concentrated attention" },
+        { name: "Counting Breath Concentration", tier: "Beginner", rx: "10–15 min · daily", how: "Count breaths 1-10, then repeat; restart if lose count or exceed 10" },
+        { name: "Tactile Concentration Practice", tier: "Beginner", rx: "10–15 min · daily", how: "Focus attention on single physical sensation (hand on knee, feet on floor); hold focus" },
+        { name: "Progressive Concentration Building", tier: "Beginner", rx: "daily", how: "Start with 1 minute focused attention; increase by 30 seconds daily; track progress" },
+        { name: "Concentration Environment Optimization", tier: "Beginner", rx: "before practice sessions", how: "Design environment to support concentration; minimize distractions and supports focus" },
+        { name: "Visual Object Concentration", tier: "Intermediate", rx: "5–10 min · daily", how: "Gaze at single visual object without blinking; maintain unwavering attention" },
+        { name: "Auditory Focus Concentration", tier: "Intermediate", rx: "10–15 min · practice sessions", how: "Focus on single sound (bell, metronome); maintain attention on that sound only" },
+        { name: "Distraction Resistance Training", tier: "Intermediate", rx: "15–20 min · with distractions", how: "Maintain focus despite deliberate distractions (noise, movement); build concentration strength" },
+        { name: "Micro-Concentration Intervals", tier: "Intermediate", rx: "10–15 min · interval training", how: "Focus intensely for 30-60 seconds; rest 15 seconds; repeat cycle" },
+        { name: "Concentration Quality Assessment", tier: "Intermediate", rx: "during practice sessions", how: "Rate concentration quality 1-10 every 5 minutes; identify optimal conditions" },
+        { name: "Concentration Anchor Switching", tier: "Intermediate", rx: "15–20 min · switching practice", how: "Switch concentration anchor every 5 minutes (breath → sound → sensation); maintain focus" },
+        { name: "Concentration Recovery Speed", tier: "Intermediate", rx: "during practice sessions", how: "After distraction, measure time to return to full concentration; optimize recovery" },
+        { name: "Concentration Stability Training", tier: "Intermediate", rx: "15–20 min · stability practice", how: "Maintain steady concentration without fluctuations; avoid peaks and valleys" },
+        { name: "Concentration Obstacle Identification", tier: "Intermediate", rx: "during practice reflection", how: "Identify personal concentration obstacles (hunger, anxiety, environment); address systematically" },
+        { name: "Concentration State Anchoring", tier: "Intermediate", rx: "during peak concentration moments", how: "Create physical anchor for concentrated state; access concentration on demand" },
+        { name: "Concentration Transfer Training", tier: "Intermediate", rx: "during daily tasks", how: "Apply concentrated attention to daily activities; transfer meditation skills to life" },
+        { name: "Concentration Recovery Protocol", tier: "Intermediate", rx: "whenever concentration lost", how: "After concentration breaks, use specific sequence to rapidly restore focus" },
+        { name: "Concentration Progress Tracking", tier: "Intermediate", rx: "daily", how: "Track concentration metrics daily: duration, quality, obstacles; identify patterns" },
+        { name: "Concentration Endurance Building", tier: "Advanced", rx: "daily", how: "Extend duration of unbroken concentration; track maximum focused time" },
+        { name: "Multi-Object Concentration", tier: "Advanced", rx: "10–15 min · advanced practice", how: "Hold attention on 2-3 objects simultaneously; maintain awareness of all" },
+        { name: "Mental Stillness Cultivation", tier: "Advanced", rx: "15–30 min · advanced practice", how: "Focus on creating complete mental stillness; no thoughts, just pure awareness" },
+        { name: "Effortless Concentration Development", tier: "Advanced", rx: "during regular practice", how: "Progress from effortful focus to natural, effortless concentration; reduce strain" },
+        { name: "Concentration Under Fatigue", tier: "Advanced", rx: "10–15 min · when fatigued", how: "Practice concentration when mentally tired; build mental endurance" },
+        { name: "Rapid Concentration Access", tier: "Advanced", rx: "several × / day", how: "Develop ability to enter concentrated state within 30 seconds on command" },
+        { name: "Concentration Depth Exploration", tier: "Advanced", rx: "during extended practice", how: "Go deeper into concentration state; explore subtler levels of focus" },
+        { name: "Concentration Flexibility Practice", tier: "Advanced", rx: "10–15 min · flexibility training", how: "Switch between concentrated and diffuse attention states rapidly; build flexibility" },
+        { name: "Concentration Quality Refinement", tier: "Advanced", rx: "ongoing", how: "Refine concentration quality: sharper, clearer, more stable; continuous improvement" },
+        { name: "Concentration Endurance Testing", tier: "Advanced", rx: "monthly", how: "Periodically test maximum concentration duration; expand capacity through testing" },
+        { name: "Integrated Concentration Mastery", tier: "Advanced", rx: "ongoing", how: "Combine all concentration techniques into comprehensive system; master concentrated attention" }
+      ]
+    }
+  ]
+};

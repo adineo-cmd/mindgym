@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["existentialresilience"] = {
+  name: "Existential Resilience",
+  category: "Foundation",
+  subdomains: [
+    {
+      name: "Meaning Making",
+      techniques: [
+        { name: "Gratitude Meaning Amplification", tier: "Beginner", rx: "daily", how: "Practice gratitude for meaning found in all experiences, including lessons in failure." },
+        { name: "Meaning Celebration Practice", tier: "Beginner", rx: "when meaning is felt", how: "Pause and acknowledge moments when life feels purposeful." },
+        { name: "Purpose Clarification Exercise", tier: "Intermediate", rx: "during reflection & transitions", how: "Ask what you would do if you couldn't fail and what impact you want." },
+        { name: "Values Hierarchy Mapping", tier: "Intermediate", rx: "annual review", how: "Rank your values and make decisions honoring the top ones." },
+        { name: "Legacy Visioning", tier: "Intermediate", rx: "during life planning", how: "Imagine how you want to be remembered and what to leave behind." },
+        { name: "Contribution Identification", tier: "Intermediate", rx: "during purpose exploration", how: "Find unique ways to serve something larger than yourself." },
+        { name: "Narrative Reframing", tier: "Intermediate", rx: "during identity work", how: "Recast your story from victim to hero or learner." },
+        { name: "Meaningful Goal Setting", tier: "Intermediate", rx: "during goal planning", how: "Set goals aligned with your purpose and values." },
+        { name: "Connection Meaning Cultivation", tier: "Intermediate", rx: "in relationship building", how: "Find purpose through deep relationships." },
+        { name: "Present Moment Meaning", tier: "Intermediate", rx: "throughout daily life", how: "Find sacredness in ordinary, everyday moments." },
+        { name: "Meaning Through Creation", tier: "Intermediate", rx: "during creative work", how: "Create things that express your values and purpose." },
+        { name: "Meaning Community Engagement", tier: "Intermediate", rx: "when seeking belonging", how: "Join communities sharing your values for collective meaning." },
+        { name: "Meaning Reflection Ritual", tier: "Intermediate", rx: "weekly or monthly", how: "Regularly reflect on what matters and what needs adjusting." },
+        { name: "Meaning in Service", tier: "Intermediate", rx: "when seeking purpose", how: "Find purpose by serving others' well-being." },
+        { name: "Meaning Through Growth", tier: "Intermediate", rx: "during development phases", how: "Find meaning in becoming more wise, compassionate, and skilled." },
+        { name: "Meaning Language Precision", tier: "Intermediate", rx: "when expressing purpose", how: "Use specific words to articulate your purpose." },
+        { name: "Meaning Obstacle Reframing", tier: "Intermediate", rx: "when facing challenges", how: "Treat challenges to your purpose as part of the meaning journey." },
+        { name: "Meaning Integration Practice", tier: "Intermediate", rx: "throughout daily life", how: "Ask how routine tasks serve your purpose." },
+        { name: "Meaning Legacy Building", tier: "Intermediate", rx: "ongoing", how: "Make daily choices aligned with your desired legacy." },
+        { name: "Meaning Through Storytelling", tier: "Intermediate", rx: "when sharing experiences", how: "Share stories that convey your values and purpose." },
+        { name: "Meaning Compass Development", tier: "Intermediate", rx: "during decision-making", how: "Create guiding questions for unclear decisions." },
+        { name: "Meaning in Relationships", tier: "Intermediate", rx: "in relationship cultivation", how: "Invest in a few deep connections over many shallow ones." },
+        { name: "Meaning Through Letting Go", tier: "Intermediate", rx: "during simplification", how: "Release activities that no longer serve your purpose." },
+        { name: "Meaning Extraction from Adversity", tier: "Advanced", rx: "after difficult events", how: "Ask what difficulties taught you about what matters." },
+        { name: "Suffering Meaning Integration", tier: "Advanced", rx: "during difficult phases", how: "Weave inevitable pain into your life narrative." },
+        { name: "Meaning Paradox Embrace", tier: "Advanced", rx: "during existential reflection", how: "Hold both the preciousness and absurdity of life." },
+        { name: "Meaning Through Witnessing", tier: "Advanced", rx: "during contemplative practice", how: "Contemplatively bear witness to beauty, suffering, and joy." },
+        { name: "Meaning in Uncertainty", tier: "Advanced", rx: "during uncertain phases", how: "Trust that the search for purpose itself has meaning." },
+        { name: "Meaning Flexibility Cultivation", tier: "Advanced", rx: "during life transitions", how: "Let your sense of purpose evolve as you mature." },
+        { name: "Integrated Meaning Making System", tier: "Advanced", rx: "ongoing", how: "Combine all techniques into a purpose architecture: clarify purpose, align values, extract meaning." }
+      ]
+    },
+    {
+      name: "Mortality Awareness",
+      techniques: [
+        { name: "Memento Mori Practice", tier: "Intermediate", rx: "daily or weekly", how: "Regularly contemplate that you will die and use it to prioritize what matters." },
+        { name: "Life Finite Framing", tier: "Intermediate", rx: "during decision-making", how: "Treat life as a finite, scarce resource to guide intentional choices." },
+        { name: "Regret Minimization Through Mortality", tier: "Intermediate", rx: "for important decisions", how: "Project yourself to age 80 and act now on what you'd regret skipping." },
+        { name: "Legacy Through Mortality Lens", tier: "Intermediate", rx: "during life planning", how: "Decide what impact you most want to have given limited time." },
+        { name: "Present Moment Intensification", tier: "Intermediate", rx: "throughout daily life", how: "Remind yourself moments won't repeat, so be fully present." },
+        { name: "Mortality-Based Prioritization", tier: "Intermediate", rx: "in time allocation", how: "Ask if you'd spend hypothetical final time on an activity before committing." },
+        { name: "Mortality Gratitude Amplification", tier: "Intermediate", rx: "daily", how: "Feel gratitude for existence itself, not just good things." },
+        { name: "Legacy vs Ego Differentiation", tier: "Intermediate", rx: "during legacy planning", how: "Distinguish wanting recognition from wanting your values to continue." },
+        { name: "Mortality Courage Cultivation", tier: "Intermediate", rx: "when facing fear", how: "Use life's shortness to push past hesitation toward meaningful risks." },
+        { name: "Mortality-Based Forgiveness", tier: "Intermediate", rx: "when holding grudges", how: "Release grudges by remembering everyone's time is limited." },
+        { name: "Finite Time Celebration", tier: "Intermediate", rx: "during joyful moments", how: "Celebrate having time together as a gift rather than a tragedy." },
+        { name: "End-of-Life Visioning", tier: "Intermediate", rx: "during life planning", how: "Imagine your ideal ending and let that vision guide present choices." },
+        { name: "Mortality Humility Cultivation", tier: "Intermediate", rx: "in moments of pride", how: "Recall that everyone dies equally to soften pride and judgment." },
+        { name: "Mortality-Based Connection", tier: "Intermediate", rx: "in relationships", how: "Acknowledge shared finitude to deepen bonds with others." },
+        { name: "Legacy Through Others", tier: "Intermediate", rx: "in relationship reflection", how: "Find comfort in how your kindness lives on through those you impacted." },
+        { name: "Finite Resource Allocation", tier: "Intermediate", rx: "daily", how: "Weigh time, energy, and attention costs against your finite life." },
+        { name: "Mortality-Based Apology", tier: "Intermediate", rx: "after wrongdoing", how: "Apologize promptly rather than waiting, since time is limited." },
+        { name: "Death Preparation Documentation", tier: "Intermediate", rx: "periodic life admin", how: "Write wishes, values, and messages, such as an ethical will, for after death." },
+        { name: "Mortality Joy Amplification", tier: "Intermediate", rx: "during joyful experiences", how: "Note that moments are fleeting to heighten appreciation and joy." },
+        { name: "Mortality-Based Risk Assessment", tier: "Intermediate", rx: "for important choices", how: "Ask whether not trying something would cause future regret." },
+        { name: "End-of-Life Relationship Prioritization", tier: "Intermediate", rx: "in relationship management", how: "Choose which people deserve your limited time most and invest there." },
+        { name: "Mortality Integration Ritual", tier: "Intermediate", rx: "regular practice", how: "Create a daily ritual, like lighting a candle, to live the awareness of death." },
+        { name: "Death Anxiety Transformation", tier: "Advanced", rx: "when mortality thoughts arise", how: "Reframe death anxiety as a reminder to live fully now." },
+        { name: "Death Preparation Practice", tier: "Advanced", rx: "periodic life review", how: "Prepare practically with a will and forgiven grudges, and emotionally, for death." },
+        { name: "Death Conversation Practice", tier: "Advanced", rx: "with trusted people", how: "Discuss death openly with loved ones to reduce taboo and build connection." },
+        { name: "Mortality Wisdom Extraction", tier: "Advanced", rx: "during existential reflection", how: "Draw life lessons from death awareness, such as loving deeply and forgiving fast." },
+        { name: "Death Anxiety Exposure", tier: "Advanced", rx: "controlled practice", how: "Gradually increase exposure to mortality thoughts until anxiety fades." },
+        { name: "Mortality Acceptance Practice", tier: "Advanced", rx: "regular practice", how: "Meditate on death as natural, like birth, to reduce resistance." },
+        { name: "Mortality Wisdom Sharing", tier: "Advanced", rx: "when mentoring", how: "Mentor others with death-informed guidance to live fully." },
+        { name: "Integrated Mortality Awareness System", tier: "Advanced", rx: "ongoing", how: "Combine memento mori, finite framing, and regret minimization into one system." }
+      ]
+    }
+  ]
+};

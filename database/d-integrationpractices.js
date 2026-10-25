@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["integrationpractices"] = {
+  name: "Integration Practices",
+  category: "Foundation",
+  subdomains: [
+    {
+      name: "Mind Body Sync",
+      techniques: [
+        { name: "Breath-Heart Coherence", tier: "Beginner", rx: "5–10 min · before stress events", how: "Breathe at five to six breaths per minute while focusing on the heart to sync cardiovascular and nervous systems." },
+        { name: "Vagal Toning Exercises", tier: "Beginner", rx: "during acute stress", how: "Activate the vagus nerve via cold exposure, humming, or eye movements for rapid calm." },
+        { name: "Postural Feedback Loop", tier: "Beginner", rx: "before performances", how: "Adopt expansive, upright posture to shift hormones, raising testosterone and lowering cortisol." },
+        { name: "Cross-Lateral Movement", tier: "Beginner", rx: "when mentally foggy", how: "Do cross-body exercises like cross-crawls to integrate your brain hemispheres." },
+        { name: "Somatic Tracking", tier: "Intermediate", rx: "when overwhelmed", how: "Scan the body for sensations like tightness, heat, or tingling and observe them without judgment." },
+        { name: "Proprioceptive Drilling", tier: "Intermediate", rx: "during physical practice", how: "Perform complex movements with eyes closed to heighten body awareness." },
+        { name: "Fascial Release Awareness", tier: "Intermediate", rx: "post-workout", how: "Use foam rolling or massage to release tension stored in connective tissue." },
+        { name: "Mirror Neuron Activation", tier: "Intermediate", rx: "during skill acquisition", how: "Watch experts intently to fire the same motor neurons as doing the skill yourself." },
+        { name: "Rhythmic Entrainment", tier: "Intermediate", rx: "during rhythmic exercise", how: "Sync movement, breath, and heart rate to an external rhythm like music or a metronome." },
+        { name: "Bilateral Stimulation", tier: "Intermediate", rx: "when processing emotions", how: "Use alternating left-right stimuli like tapping or eye movements to process stuck emotions." },
+        { name: "Muscle Armoring Release", tier: "Intermediate", rx: "during evening wind-down", how: "Release chronic unconscious tension in the jaw, shoulders, and pelvis." },
+        { name: "Neuro-Motor Patterning", tier: "Intermediate", rx: "during skill practice", how: "Isolate and slowly drill neurological patterns until they are myelinated." },
+        { name: "Embodied Cognition", tier: "Intermediate", rx: "when intellectually stuck", how: "Use movement and gestures to think through complex problems." },
+        { name: "Gestural Anchoring", tier: "Intermediate", rx: "at peak states", how: "Pair a unique gesture with a peak state so you can trigger it later on command." },
+        { name: "Oculomotor Vagal Stimulation", tier: "Intermediate", rx: "during acute stress", how: "Use specific eye patterns, EMDR-style or panoramic, to calm the brainstem." },
+        { name: "Myofascial Gliding", tier: "Intermediate", rx: "morning movement", how: "Do slow, mindful fascia-stretching movements for hydration and less stiffness." },
+        { name: "Kinesthetic Mapping", tier: "Advanced", rx: "during learning", how: "Anchor abstract concepts and memories to physical movements or postures." },
+        { name: "Heart Rate Variability Training", tier: "Advanced", rx: "15 min · daily", how: "Use biofeedback to shift into a parasympathetic, adaptable state." },
+        { name: "Vestibular Calibration", tier: "Advanced", rx: "during training or play", how: "Do balance challenges like inversion, spinning, or unstable surfaces for neurological resilience." },
+        { name: "Interoceptive Exposure", tier: "Advanced", rx: "for panic or health anxiety", how: "Deliberately induce anxiety symptoms to teach the brain they are safe." },
+        { name: "Polyvagal Gliding", tier: "Advanced", rx: "during stress inoculation", how: "Consciously move between ventral, sympathetic, and dorsal autonomic states." },
+        { name: "Sensory Integration Drills", tier: "Advanced", rx: "during rehab", how: "Combine conflicting sensory inputs to force brain adaptation." },
+        { name: "Tension-Trauma Release", tier: "Advanced", rx: "when chronically wired", how: "Do exercises that induce neurogenic tremors to discharge stored nervous energy." },
+        { name: "Somatic Resonance", tier: "Advanced", rx: "in social settings", how: "Tune into a space's or person's vibe, using your body as an antenna." },
+        { name: "Vocal-Somatic Sync", tier: "Advanced", rx: "during speaking", how: "Align vocal tone, volume, and pace with your posture and breath." },
+        { name: "Cranial-Sacral Awareness", tier: "Advanced", rx: "during deep meditation", how: "Tune into cerebrospinal fluid pulsation for deep stillness." },
+        { name: "Autonomic Shifting", tier: "Advanced", rx: "during tactical or athletic training", how: "Rapidly switch from high arousal to deep rest on command." },
+        { name: "Somatic Pacing", tier: "Advanced", rx: "during deep conversations", how: "Match your movement and breathing to another person's emotional state for rapport." },
+        { name: "Embodied Flow State", tier: "Advanced", rx: "during sports or dance", how: "Combine physical goals, sensory feedback, and challenge-skill balance for bodily flow." },
+        { name: "Integrated Mind-Body System", tier: "Advanced", rx: "ongoing practice", how: "Use the body to regulate the mind and the mind to direct the body in a seamless loop." }
+      ]
+    },
+    {
+      name: "Holistic Development",
+      techniques: [
+        { name: "Life Wheel Audit", tier: "Beginner", rx: "quarterly", how: "Rate satisfaction 1-10 across eight key life areas to spot neglected domains." },
+        { name: "Play-Therapy Integration", tier: "Beginner", rx: "weekly", how: "Schedule zero-purpose activities purely for joy and neurological reset." },
+        { name: "Holistic Journaling", tier: "Beginner", rx: "10 min · nightly", how: "Integrate the day's mental, physical, and emotional events into one narrative." },
+        { name: "Polymathic Skill Stacking", tier: "Intermediate", rx: "during career planning", how: "Combine two or three decent skills to become uniquely rare and valuable." },
+        { name: "Seasonal Living Alignment", tier: "Intermediate", rx: "annual planning", how: "Match energy output to circadian and seasonal rhythms, resting more in winter." },
+        { name: "Values-Alignment Check", tier: "Intermediate", rx: "monthly", how: "Compare your calendar and bank statement against your stated values." },
+        { name: "Domain Balancing Protocol", tier: "Intermediate", rx: "during crunch periods", how: "Ensure a big win in one area does not destroy another." },
+        { name: "Skill Complementarity Mapping", tier: "Intermediate", rx: "during education planning", how: "Ensure the skills you learn support and multiply each other." },
+        { name: "Systemic Recovery", tier: "Intermediate", rx: "after exertion", how: "Tailor recovery to the specific depleted system, whether body, mind, or emotions." },
+        { name: "Life Design Sprint", tier: "Intermediate", rx: "when stuck", how: "Prototype, test, and iterate new life paths before committing to them." },
+        { name: "Ecological Footprint Awareness", tier: "Intermediate", rx: "ongoing", how: "Reduce your environmental impact as a systems-thinking practice." },
+        { name: "Community Integration", tier: "Intermediate", rx: "ongoing", how: "Contribute time, skills, and resources to your local physical community." },
+        { name: "Intellectual-Emotional Balance", tier: "Intermediate", rx: "weekly", how: "Balance reading and thinking with feeling, processing, and relating." },
+        { name: "Financial-Physical Health Link", tier: "Intermediate", rx: "during budgeting", how: "Invest in preventative health as a core financial strategy." },
+        { name: "Environmental Mastery", tier: "Intermediate", rx: "during life setup", how: "Design spaces that automatically trigger desired habits and moods." },
+        { name: "Digital Minimalism", tier: "Intermediate", rx: "ongoing", how: "Ruthlessly curate digital inputs so they serve your goals." },
+        { name: "Joy-Metric Tracking", tier: "Intermediate", rx: "daily · evening", how: "Track what genuinely energizes you and eliminate what drains you." },
+        { name: "Energy Periodization", tier: "Advanced", rx: "long-term planning", how: "Structure life into athlete-style cycles of push, maintenance, and recovery." },
+        { name: "Burnout Prophylaxis", tier: "Advanced", rx: "weekly", how: "Track early burnout signs like cynicism, exhaustion, and inefficacy, then rest preemptively." },
+        { name: "Identity Integration", tier: "Advanced", rx: "during transitions", how: "Reconcile your different versions of self into one coherent whole." },
+        { name: "Anti-Fragile Lifestyle Design", tier: "Advanced", rx: "ongoing", how: "Build a life strengthened by shocks through diverse income, a strong body, and deep relationships." },
+        { name: "Holistic Metrics Dashboard", tier: "Advanced", rx: "weekly", how: "Track a balanced scorecard covering sleep, HRV, deep work, relationships, and finances." },
+        { name: "Personal Board of Directors", tier: "Advanced", rx: "ongoing", how: "Curate five to seven mentors, peers, and experts across your life domains." },
+        { name: "Legacy Mapping", tier: "Advanced", rx: "annually", how: "Define your desired impact and reverse-engineer daily habits from it." },
+        { name: "Spiritual-Physical Sync", tier: "Advanced", rx: "when seeking meaning", how: "Use fasting, cold exposure, or pilgrimage to induce spiritual clarity." },
+        { name: "Relational-Capital Audit", tier: "Advanced", rx: "2× / year", how: "Evaluate the health, depth, and reciprocity of key relationships, then repair or prune." },
+        { name: "Purpose-Practice Alignment", tier: "Advanced", rx: "daily routine design", how: "Link your daily mundane practices to your overarching purpose." },
+        { name: "Life Architecture", tier: "Advanced", rx: "major planning phases", how: "Design life like a building with a health foundation, career walls, and purpose roof." },
+        { name: "Integrated Living", tier: "Advanced", rx: "ongoing", how: "View work, life, health, and spirit as one unified existence." },
+        { name: "Holistic Mastery System", tier: "Advanced", rx: "ongoing", how: "Combine life audits, domain balancing, and systemic recovery into a master framework." }
+      ]
+    }
+  ]
+};

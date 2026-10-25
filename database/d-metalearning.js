@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["metalearning"] = {
+  name: "Meta-Learning Architecture",
+  category: "Domains",
+  subdomains: [
+    {
+      name: "Learning How To Learn",
+      techniques: [
+        { name: "Learning Style Identification", tier: "Beginner", rx: "before starting new learning", how: "Determine your best learning modalities (visual, auditory, kinesthetic) and match them to the material." },
+        { name: "Learning Curve Prediction", tier: "Beginner", rx: "before a learning journey", how: "Estimate the time needed to reach proficiency levels so expectations stay realistic." },
+        { name: "Learning Environment Design", tier: "Beginner", rx: "before learning sessions", how: "Optimize your physical and digital space for learning and minimize distractions." },
+        { name: "Learning Progress Tracking", tier: "Beginner", rx: "weekly learning review", how: "Track time, mastery, and retention metrics to spot patterns and optimize learning." },
+        { name: "Learning Spacing Optimization", tier: "Beginner", rx: "throughout the learning journey", how: "Spread learning across multiple sessions instead of massing practice together." },
+        { name: "Learning Dual Coding Application", tier: "Beginner", rx: "during learning and review", how: "Combine verbal and visual information to create dual encoding pathways." },
+        { name: "Learning Summarization Practice", tier: "Beginner", rx: "after learning sections", how: "Summarize material in your own words, distilling it to the essentials." },
+        { name: "Metacognitive Monitoring", tier: "Intermediate", rx: "during all learning activities", how: "Continuously assess your own understanding so you know what you do and don't know." },
+        { name: "Learning Strategy Selection", tier: "Intermediate", rx: "before beginning learning", how: "Pick the right strategy per material type, whether memorization, understanding, or skill." },
+        { name: "Transfer Learning Identification", tier: "Intermediate", rx: "when entering a new domain", how: "Spot existing knowledge that transfers to new domains and leverage it." },
+        { name: "Learning Plateau Navigation", tier: "Intermediate", rx: "when progress stalls", how: "Recognize plateaus and apply specific strategies to break through them." },
+        { name: "Deliberate Practice Design", tier: "Intermediate", rx: "for skill acquisition", how: "Structure practice with specific goals, immediate feedback, and focused repetition." },
+        { name: "Feedback Loop Optimization", tier: "Intermediate", rx: "during practice sessions", how: "Build rapid feedback mechanisms to accelerate correction." },
+        { name: "Learning Energy Management", tier: "Intermediate", rx: "daily learning schedule", how: "Schedule learning at peak energy and match task difficulty to your energy level." },
+        { name: "Learning Motivation Optimization", tier: "Intermediate", rx: "during the learning journey", how: "Tie learning to intrinsic motivation and personal meaning for sustained effort." },
+        { name: "Learning Obstacle Identification", tier: "Intermediate", rx: "when learning is difficult", how: "Identify obstacles like procrastination, distraction, or confusion and address them systematically." },
+        { name: "Learning Strategy Experimentation", tier: "Intermediate", rx: "ongoing learning practice", how: "Try varied approaches to discover what works best for you and the material." },
+        { name: "Learning Transfer Acceleration", tier: "Intermediate", rx: "during the learning process", how: "Actively connect new learning to existing knowledge to build neural bridges." },
+        { name: "Learning Context Variation", tier: "Intermediate", rx: "across multiple study sessions", how: "Study the same material in different contexts to create multiple retrieval paths." },
+        { name: "Learning Difficulty Calibration", tier: "Intermediate", rx: "during learning progression", how: "Match difficulty to your current skill level for optimal challenge." },
+        { name: "Learning Interleaving Strategy", tier: "Intermediate", rx: "during practice sessions", how: "Mix topics and skills within a session to build discrimination and flexibility." },
+        { name: "Learning Retrieval Practice", tier: "Intermediate", rx: "multiple times during learning", how: "Test recall without cues frequently to strengthen memory traces." },
+        { name: "Learning Elaboration Technique", tier: "Intermediate", rx: "during the learning process", how: "Explain material in your own words and connect it to prior knowledge." },
+        { name: "Learning Concrete-Abstract Cycling", tier: "Intermediate", rx: "during concept learning", how: "Alternate between concrete examples and abstract principles." },
+        { name: "Learning Question Generation", tier: "Intermediate", rx: "during reading or study", how: "Create questions while learning to guide attention and encoding." },
+        { name: "Learning Self-Explanation", tier: "Intermediate", rx: "during the learning process", how: "Explain to yourself how new information relates to what you already know." },
+        { name: "Learning Mapping Techniques", tier: "Intermediate", rx: "during complex topic learning", how: "Create visual maps of concept relationships to encode structure, not just facts." },
+        { name: "Learning Reflection Protocol", tier: "Intermediate", rx: "10–15 min · after learning sessions", how: "Reflect on what and how you learned; metacognition strengthens learning." },
+        { name: "Learning Efficiency Measurement", tier: "Advanced", rx: "during learning sessions", how: "Measure learning output per unit of time and optimize for efficiency." },
+        { name: "Integrated Learning Architecture", tier: "Advanced", rx: "ongoing learning practice", how: "Combine all meta-learning techniques into a personalized system to master learning." }
+      ]
+    },
+    {
+      name: "Cognitive Optimization",
+      techniques: [
+        { name: "Working Memory Optimization", tier: "Beginner", rx: "during complex tasks", how: "Use external aids like notes and lists to offload working memory and free cognitive resources." },
+        { name: "Cognitive State Optimization", tier: "Beginner", rx: "daily lifestyle optimization", how: "Optimize sleep, nutrition, and exercise for better brain function." },
+        { name: "Cognitive Distraction Elimination", tier: "Beginner", rx: "during deep cognitive work", how: "Systematically remove distractions to protect focused thinking time." },
+        { name: "Cognitive Load Management", tier: "Intermediate", rx: "throughout cognitive tasks", how: "Monitor mental workload and adjust task complexity to stay in an optimal processing zone." },
+        { name: "Attention Management Strategy", tier: "Intermediate", rx: "during focused work", how: "Consciously direct and protect attention to minimize switching costs." },
+        { name: "Mental Model Application", tier: "Intermediate", rx: "during problem analysis", how: "Apply proven mental models, like inversion, to understand complex situations." },
+        { name: "Cognitive Flexibility Training", tier: "Intermediate", rx: "during problem-solving", how: "Practice switching between thinking modes for mental agility." },
+        { name: "Metacognitive Awareness Development", tier: "Intermediate", rx: "ongoing self-reflection", how: "Build awareness of your own thinking processes and when you think best." },
+        { name: "Cognitive Recovery Optimization", tier: "Intermediate", rx: "between demanding tasks", how: "Optimize recovery between tasks to prevent cognitive fatigue." },
+        { name: "Cognitive Strategy Selection", tier: "Intermediate", rx: "before starting cognitive tasks", how: "Match your thinking approach, divergent or convergent, to the task type." },
+        { name: "Cognitive Automation Development", tier: "Intermediate", rx: "through repeated practice", how: "Turn conscious processes into automatic habits to free up resources." },
+        { name: "Cognitive Interference Management", tier: "Intermediate", rx: "when learning similar skills", how: "Minimize interference between similar tasks and avoid studying similar material back-to-back." },
+        { name: "Cognitive Chunking Optimization", tier: "Intermediate", rx: "during information processing", how: "Organize information into chunks suited to working memory capacity." },
+        { name: "Cognitive Speed-Accuracy Balance", tier: "Intermediate", rx: "during cognitive tasks", how: "Balance speed and accuracy without rushing or overthinking." },
+        { name: "Cognitive Task Sequencing", tier: "Intermediate", rx: "daily task planning", how: "Order tasks by difficulty to match your cognitive state, such as analytical work in the morning." },
+        { name: "Cognitive Load Balancing", tier: "Intermediate", rx: "daily cognitive scheduling", how: "Spread cognitive load over time to avoid overload and underload." },
+        { name: "Cognitive Resource Conservation", tier: "Intermediate", rx: "daily cognitive resource management", how: "Save cognitive resources for high-priority work by automating low-value decisions." },
+        { name: "Cognitive Performance Tracking", tier: "Intermediate", rx: "weekly cognitive review", how: "Track focus duration, decision quality, and problem-solving speed to optimize performance." },
+        { name: "Cognitive Recovery Ritual", tier: "Intermediate", rx: "after intense cognitive sessions", how: "Create a post-work ritual like walking, hydrating, or stretching for faster recovery." },
+        { name: "Cognitive Bias Identification", tier: "Advanced", rx: "during decision-making", how: "Recognize and correct common biases like anchoring during decisions." },
+        { name: "Cognitive Endurance Building", tier: "Advanced", rx: "through progressive overload", how: "Extend high-quality work duration by progressing from 30 to 60 to 90 minutes." },
+        { name: "Cognitive Resource Allocation", tier: "Advanced", rx: "daily cognitive planning", how: "Strategically assign resources and do key work at peak energy." },
+        { name: "Cognitive Bottleneck Identification", tier: "Advanced", rx: "when performance plateaus", how: "Find what limits performance, such as slow reading, and target improvement there." },
+        { name: "Cognitive Parallel Processing", tier: "Advanced", rx: "through progressive training", how: "Train to handle multiple cognitive streams simultaneously, increasing throughput." },
+        { name: "Cognitive Error Detection", tier: "Advanced", rx: "during cognitive tasks", how: "Catch thinking mistakes, such as logical fallacies, in real time." },
+        { name: "Cognitive Efficiency Measurement", tier: "Advanced", rx: "during cognitive work", how: "Measure output per unit of time and energy and optimize accordingly." },
+        { name: "Cognitive Strategy Refinement", tier: "Advanced", rx: "through reflection and practice", how: "Continuously improve thinking approaches through post-project reflection." },
+        { name: "Cognitive State Shifting", tier: "Advanced", rx: "when a state change is needed", how: "Shift on demand between focused, diffuse, and creative states." },
+        { name: "Cognitive Capacity Expansion", tier: "Advanced", rx: "through progressive cognitive training", how: "Systematically expand working memory and processing speed through progressive training." },
+        { name: "Integrated Cognitive Optimization System", tier: "Advanced", rx: "ongoing cognitive lifestyle", how: "Combine all techniques into one daily system: optimize state, manage load, select strategies, track performance, recover." }
+      ]
+    }
+  ]
+};

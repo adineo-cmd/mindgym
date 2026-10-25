@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["integration"] = {
+  name: "Integration & Synthesis",
+  category: "Foundation",
+  subdomains: [
+    {
+      name: "Cross Domain",
+      techniques: [
+        { name: "Polymathic Synthesis Journaling", tier: "Intermediate", rx: "weekly", how: "Keep a journal where you explicitly write down connections between books, podcasts, and experiences from different fields." },
+        { name: "Constraint Transposition", tier: "Intermediate", rx: "during creative work", how: "Take artificial constraints from one domain, like a character limit, and apply them to work in another." },
+        { name: "Cross-Domain Vocabulary Building", tier: "Intermediate", rx: "ongoing", how: "Learn the core jargon and foundational concepts of two or three adjacent or unrelated fields to enable idea transfer." },
+        { name: "Skill Stacking for Niche Creation", tier: "Intermediate", rx: "during career planning", how: "Combine two or three good skills from different domains to become exceptional in a unique niche." },
+        { name: "Historical Paralleling", tier: "Intermediate", rx: "when studying events or strategy", how: "Draw explicit parallels between historical events from different eras and regions to spot recurring macro-patterns." },
+        { name: "Biomimicry Application", tier: "Intermediate", rx: "during design work", how: "Look to biological and evolutionary solutions, billions of years of R&D, to solve engineering or organizational problems." },
+        { name: "Artistic Interpretation of Data", tier: "Intermediate", rx: "during science communication", how: "Use artistic mediums like visual art, music, or narrative to represent complex data or theories with emotional resonance." },
+        { name: "Macro-Micro Bridging", tier: "Intermediate", rx: "when teaching or writing", how: "Connect large abstract theories to small concrete everyday applications, and vice versa, to ensure practical relevance." },
+        { name: "Analogical Reasoning Drills", tier: "Intermediate", rx: "daily–weekly", how: "Regularly practice saying X is like Y across wildly different domains to keep your synthesis muscle flexible and fast." },
+        { name: "Mental Model Mapping", tier: "Advanced", rx: "during complex problem-solving", how: "Identify a model from one domain, like critical mass from physics, and map it onto a problem in another." },
+        { name: "Analogical Transfer Protocol", tier: "Advanced", rx: "when stuck on challenges", how: "Take a solved problem in one domain and systematically map its entities and relationships to an unsolved problem elsewhere." },
+        { name: "Metaphorical Blending", tier: "Advanced", rx: "during brainstorming", how: "Blend two distinct metaphors from different fields to create a new framework for understanding a complex issue." },
+        { name: "First Principles Cross-Pollination", tier: "Advanced", rx: "when challenging dogma", how: "Break a problem down to fundamental truths in one field, then ask how those truths apply to a completely different field." },
+        { name: "Systems Thinking Integration", tier: "Advanced", rx: "during strategic planning", how: "View a problem not in isolation but as a node in a larger system including economic, social, and environmental factors." },
+        { name: "Mathematical Modeling of Social Phenomena", tier: "Advanced", rx: "during advanced research", how: "Use equations, network theory, or statistics to describe and predict human behavior and social dynamics." },
+        { name: "Philosophical Grounding of Science", tier: "Advanced", rx: "when studying a discipline's foundations", how: "Apply epistemology, ethics, and logic to the foundational assumptions and implications of a scientific or technical field." },
+        { name: "Linguistic Relativity Application", tier: "Advanced", rx: "during cross-cultural study", how: "Analyze how the structure of a language shapes the way its speakers think about a specific concept." },
+        { name: "Thematic Synthesis", tier: "Advanced", rx: "during broad study or essays", how: "Identify one overarching theme, like entropy or power, and trace it across multiple disciplines." },
+        { name: "Contradiction Resolution", tier: "Advanced", rx: "during literature review", how: "Actively seek out and resolve apparent contradictions between the findings or assumptions of two different fields." },
+        { name: "Scale-Shifting Analysis", tier: "Advanced", rx: "when studying complex systems", how: "Analyze a phenomenon at multiple scales, from quantum to societal, to grasp its full nature." },
+        { name: "Boundary Object Creation", tier: "Advanced", rx: "when leading interdisciplinary teams", how: "Develop a concept or tool adaptable enough for local use yet robust enough to keep its identity across fields." },
+        { name: "Epistemic Humility Practice", tier: "Advanced", rx: "during debates or research design", how: "Acknowledge your home discipline's limits and seek complementary strengths in other fields to fill blind spots." },
+        { name: "Synesthetic Thinking", tier: "Advanced", rx: "during creative blocks", how: "Deliberately mix sensory or conceptual domains, for example asking what a mathematical equation sounds like." },
+        { name: "Disciplinary Deconstruction", tier: "Advanced", rx: "during complex projects", how: "Break down artificial boundaries between academic departments or corporate silos to solve problems holistically." },
+        { name: "Polymathic Project Design", tier: "Advanced", rx: "per capstone project", how: "Design a project that requires integrating at least three distinct disciplines to succeed." },
+        { name: "Meta-Disciplinary Analysis", tier: "Advanced", rx: "during advanced study", how: "Study the history and sociology of academic disciplines to understand why they are divided and how they evolve." },
+        { name: "Synthesis Communication", tier: "Advanced", rx: "during presentations or teaching", how: "Explain complex cross-domain ideas to audiences expert in only one domain, using their specific analogies." },
+        { name: "Inversion Across Domains", tier: "Advanced", rx: "during planning or risk management", how: "Apply the mathematical inversion model of thinking backward to social and business problems to find hidden flaws." },
+        { name: "Network Theory Application", tier: "Advanced", rx: "when analyzing systems", how: "Apply network principles like nodes, edges, hubs, and clustering to social dynamics, neuroscience, or logistics." },
+        { name: "Integrated Cross-Domain Synthesis System", tier: "Advanced", rx: "ongoing", how: "Combine mapping, methodological borrowing, and polymathic project design into a seamless lifelong interdisciplinary habit." }
+      ]
+    },
+    {
+      name: "Daily Synthesis",
+      techniques: [
+        { name: "Evening Review Protocol", tier: "Beginner", rx: "10 min · nightly", how: "Review what went well, what did not, and what you learned, without judgment." },
+        { name: "Gratitude and Win Logging", tier: "Beginner", rx: "daily · end of day", how: "Write three specific things you are grateful for and three small wins to train a positive baseline." },
+        { name: "Tomorrow's Top 3", tier: "Beginner", rx: "nightly · before sleep", how: "Define the three most important tasks for tomorrow so your subconscious can prime for them overnight." },
+        { name: "Habit Scorecard", tier: "Beginner", rx: "daily · end of day", how: "Mark plus for good habits, minus for bad, and equals for neutral habits performed that day to stay accountable." },
+        { name: "Cognitive Load Dump", tier: "Beginner", rx: "when overwhelmed", how: "Write every unfinished task, worry, or idea on paper to clear your mental RAM." },
+        { name: "Micro-Journaling (Bullet Points)", tier: "Beginner", rx: "daily · end of day", how: "Write exactly three bullet points about the day: one fact, one feeling, and one lesson." },
+        { name: "Physical State Assessment", tier: "Beginner", rx: "daily · end of day", how: "Rate the day's sleep, nutrition, hydration, and movement from 1 to 10 to identify physical bottlenecks." },
+        { name: "Digital Environment Cleanup", tier: "Beginner", rx: "5 min · daily", how: "Close browser tabs, clear your desktop, and organize your digital workspace before shutting down." },
+        { name: "Environmental Reset", tier: "Beginner", rx: "10 min · nightly", how: "Reset your physical environment in the evening so your future self wakes up to order." },
+        { name: "The 'One Thing' Focus", tier: "Beginner", rx: "daily · end of day", how: "Identify the single most impactful thing you accomplished today and celebrate it to reinforce the behavior." },
+        { name: "Daily Distillation", tier: "Intermediate", rx: "daily · end of workday", how: "Write the single most important insight or lesson from the entire day in one concise sentence." },
+        { name: "Knowledge Graph Updating", tier: "Intermediate", rx: "after each learning session", how: "Explicitly link each new piece of information to an existing concept in your notes or mind map." },
+        { name: "Energy and Focus Audit", tier: "Intermediate", rx: "every 2 h · daily", how: "Rate energy and focus quality on a fixed schedule to identify ultradian rhythms and peak performance windows." },
+        { name: "Emotional Processing Check-in", tier: "Intermediate", rx: "5 min · evening", how: "Identify and name the day's dominant emotions and where you felt them in your body." },
+        { name: "Information Diet Review", tier: "Intermediate", rx: "daily · evening", how: "Audit what information you consumed today and rate its signal-to-noise ratio to adjust tomorrow's intake." },
+        { name: "Feynman Journaling", tier: "Intermediate", rx: "after learning concepts", how: "Explain a new concept on a blank page as if teaching a twelve-year-old." },
+        { name: "Sensory Deprivation Reset", tier: "Intermediate", rx: "10–15 min · before bed", how: "Sit in complete silence and darkness to let your nervous system down-regulate." },
+        { name: "Weekly Preview Integration", tier: "Intermediate", rx: "15 min · Sundays", how: "Review the past week's synthesis and set the upcoming week's thematic focus." },
+        { name: "Relationship Investment Tracking", tier: "Intermediate", rx: "daily · evening", how: "Note one positive interaction today and plan one small way to add value to a key relationship tomorrow." },
+        { name: "Failure and Friction Autopsy", tier: "Intermediate", rx: "daily · end of day", how: "Identify one thing that went wrong or felt unnecessarily hard and brainstorm a systemic fix." },
+        { name: "Identity Reinforcement", tier: "Intermediate", rx: "daily · end of day", how: "Write down one action proving you are the person you want to become, reinforcing your new identity." },
+        { name: "Information Capture System", tier: "Intermediate", rx: "daily", how: "Process all notes, ideas, and highlights from your inbox into their permanent home in your knowledge base." },
+        { name: "Forgiveness and Release", tier: "Intermediate", rx: "nightly · before sleep", how: "Consciously forgive yourself for the day's mistakes and formally close the mental chapter." },
+        { name: "Joy and Energy Audit", tier: "Intermediate", rx: "daily · end of day", how: "Identify the activity that gave you the most energy or joy and figure out how to incorporate more of it." },
+        { name: "Decision Journal Entry", tier: "Advanced", rx: "per major decision", how: "Record what you decided, why, and what outcome you expect, for later review." },
+        { name: "Value Alignment Check", tier: "Advanced", rx: "daily · end of day", how: "Ask whether today's actions reflected your core values; if not, identify the friction and plan a correction." },
+        { name: "Synthesis of Synthesis", tier: "Advanced", rx: "weekly", how: "Review the week's daily distillations and combine them into a single higher-order principle or mental model." },
+        { name: "Gratitude for Challenges", tier: "Advanced", rx: "daily · end of day", how: "Take one difficult thing from today and write one specific way it made you stronger or taught you something." },
+        { name: "Metacognitive Review", tier: "Advanced", rx: "daily · end of day", how: "Ask how you thought today: reactive or proactive, using mental models or falling back on bias." },
+        { name: "Integrated Daily Synthesis System", tier: "Advanced", rx: "30 min · nightly", how: "Combine evening review, knowledge updating, environmental reset, and planning into one seamless nightly ritual." }
+      ]
+    }
+  ]
+};

@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["timemastery"] = {
+  name: "Time Perception & Temporal Mastery",
+  category: "Domains",
+  subdomains: [
+    {
+      name: "Perception",
+      techniques: [
+        { name: "Temporal Landmark Awareness", tier: "Beginner", rx: "at temporal boundaries", how: "Use fresh-start moments like a new week, month, or year to boost motivation." },
+        { name: "Temporal Gratitude Practice", tier: "Beginner", rx: "daily gratitude practice", how: "Treat time as a precious resource and give thanks for it." },
+        { name: "Time Perception Calibration", tier: "Intermediate", rx: "daily duration-estimation practice", how: "Build an accurate inner sense of durations without a clock." },
+        { name: "Present Moment Expansion", tier: "Intermediate", rx: "during mindful moments", how: "Slow down and experience the present more fully." },
+        { name: "Time Abundance Mindset", tier: "Intermediate", rx: "when feeling time-pressured", how: "Feel that you have enough time to cut scarcity anxiety." },
+        { name: "Time Perspective Shifting", tier: "Intermediate", rx: "during decision-making", how: "Shift between short-term and long-term views when deciding." },
+        { name: "Time Quality vs Quantity", tier: "Intermediate", rx: "during time allocation decisions", how: "Prioritize meaningful, focused time over sheer hours." },
+        { name: "Temporal Anxiety Reduction", tier: "Intermediate", rx: "when feeling time-anxious", how: "Stay present instead of worrying about deadlines." },
+        { name: "Time Memory Consolidation", tier: "Intermediate", rx: "through novel experiences", how: "Seek novel experiences so remembered time feels longer." },
+        { name: "Time Attention Allocation", tier: "Intermediate", rx: "during time-use decisions", how: "Direct attention deliberately because time follows attention." },
+        { name: "Temporal Gratification Balance", tier: "Intermediate", rx: "during temptation situations", how: "Balance immediate against delayed gratification." },
+        { name: "Time Value Clarification", tier: "Intermediate", rx: "during life planning", how: "Match your time use to your personal values." },
+        { name: "Temporal Regret Minimization", tier: "Intermediate", rx: "during major decisions", how: "Use the regret-minimization framework for big choices." },
+        { name: "Time Perception Meditation", tier: "Intermediate", rx: "10–20 min meditation", how: "Meditate on impermanence to make peace with time." },
+        { name: "Temporal Focus Balancing", tier: "Intermediate", rx: "daily temporal focus", how: "Balance the past for learning, the present for action, and the future for planning." },
+        { name: "Time Scarcity Reframing", tier: "Intermediate", rx: "when feeling time-scarce", how: "Reframe having no time as a matter of choice and priority." },
+        { name: "Temporal Presence Cultivation", tier: "Intermediate", rx: "during daily activities", how: "Be fully present instead of mentally time-traveling." },
+        { name: "Time Perception Accuracy Training", tier: "Intermediate", rx: "daily estimation practice", how: "Practice estimating task durations and adjust your estimates." },
+        { name: "Temporal Patience Development", tier: "Intermediate", rx: "during long-term projects", how: "Tolerate delayed outcomes in long processes." },
+        { name: "Time Perception Under Boredom", tier: "Intermediate", rx: "during tedious activities", how: "Reframe tedious time positively." },
+        { name: "Flow Time Distortion", tier: "Advanced", rx: "during engaging activities", how: "Use flow so time seems to fly, aiming for timelessness." },
+        { name: "Time Perception Under Stress", tier: "Advanced", rx: "during high-pressure situations", how: "Keep an accurate sense of time under pressure and avoid rushing." },
+        { name: "Temporal Identity Integration", tier: "Advanced", rx: "during self-reflection", how: "Unify your past, present, and future selves into one narrative." },
+        { name: "Time Consciousness Expansion", tier: "Advanced", rx: "during reflection", how: "Hold awareness across multiple time scales at once." },
+        { name: "Temporal Decision Making", tier: "Advanced", rx: "during decision-making", how: "Decide while weighing impacts across different time horizons." },
+        { name: "Time Perception Flow State", tier: "Advanced", rx: "during flow activities", how: "Expand or contract experienced time as needed by entering flow." },
+        { name: "Time Perception Stress Inoculation", tier: "Advanced", rx: "during time-pressure training", how: "Keep an accurate sense of time under tight deadlines." },
+        { name: "Temporal Meaning Making", tier: "Advanced", rx: "during life reflection", how: "Link your past, present, and future into a meaningful story." },
+        { name: "Time Perception Flexibility", tier: "Advanced", rx: "across different situations", how: "Adapt your experience of time to situational needs." },
+        { name: "Integrated Time Perception System", tier: "Advanced", rx: "ongoing temporal practice", how: "Combine all the perception techniques into one daily practice." }
+      ]
+    },
+    {
+      name: "Management",
+      techniques: [
+        { name: "Time Audit Protocol", tier: "Beginner", rx: "annual comprehensive time audit", how: "Track all time use for a week to see where time truly goes versus assumptions." },
+        { name: "Priority Matrix Application", tier: "Beginner", rx: "daily task prioritization", how: "Sort tasks by urgency and importance, prioritizing the important-but-not-urgent quadrant." },
+        { name: "Time Blocking Method", tier: "Beginner", rx: "weekly planning session", how: "Schedule dedicated blocks for specific tasks to protect focus time." },
+        { name: "Batch Processing Technique", tier: "Beginner", rx: "daily task organization", how: "Group similar tasks to cut context-switching costs." },
+        { name: "Time Buffer Creation", tier: "Beginner", rx: "during schedule creation", how: "Add buffer time between tasks for transitions and delays." },
+        { name: "Time Recycling Protocol", tier: "Beginner", rx: "during unavoidable waiting", how: "Convert dead time like commutes and waiting into productive or restorative time." },
+        { name: "Pareto Principle Application", tier: "Intermediate", rx: "weekly priority review", how: "Find the 20 percent of activities driving 80 percent of results and focus there." },
+        { name: "Time Energy Matching", tier: "Intermediate", rx: "daily schedule optimization", how: "Match task difficulty to your energy levels." },
+        { name: "Time Investment vs Expense", tier: "Intermediate", rx: "during time allocation decisions", how: "Separate long-value time investments from consumption-only expenses." },
+        { name: "Time Boundary Setting", tier: "Intermediate", rx: "when time requests arise", how: "Say no to low-priority time requests." },
+        { name: "Time Decay Awareness", tier: "Intermediate", rx: "during opportunity evaluation", how: "Recognize time-sensitive tasks and act before opportunities expire." },
+        { name: "Time Compression Technique", tier: "Intermediate", rx: "during task execution", how: "Use focus and tight deadlines to finish tasks in less time." },
+        { name: "Time Expansion Strategy", tier: "Intermediate", rx: "during priority allocation", how: "Give important activities the full time they deserve without rushing." },
+        { name: "Time System Automation", tier: "Intermediate", rx: "during system design", how: "Automate recurring time decisions to reduce decision fatigue." },
+        { name: "Time Review Ritual", tier: "Intermediate", rx: "weekly time review", how: "Review and adjust your time allocation weekly." },
+        { name: "Time Energy Protection", tier: "Intermediate", rx: "during schedule creation", how: "Avoid scheduling beyond your energy capacity and protect energy alongside time." },
+        { name: "Time Elimination Practice", tier: "Intermediate", rx: "during time audit", how: "Cut low-value time use such as scrolling, needless meetings, or perfectionism on minor tasks." },
+        { name: "Time Sequencing Optimization", tier: "Intermediate", rx: "during daily planning", how: "Order tasks optimally for efficiency and energy, such as creative work first." },
+        { name: "Time Contingency Planning", tier: "Intermediate", rx: "during project planning", how: "Build backup plans for when time estimates fail." },
+        { name: "Time Quality Control", tier: "Intermediate", rx: "during and after time use", how: "Monitor whether your time produces outcomes, not just activity." },
+        { name: "Time Recovery Protocol", tier: "Intermediate", rx: "after time disruptions", how: "Reset and get back on track after time disruptions." },
+        { name: "Time Rhythm Optimization", tier: "Intermediate", rx: "through self-observation", how: "Align work with your natural biological rhythms." },
+        { name: "Time Boundary Defense", tier: "Intermediate", rx: "when boundaries are threatened", how: "Protect scheduled time when boundaries are threatened, such as meetings running over." },
+        { name: "Time Leverage Maximization", tier: "Advanced", rx: "when scaling activities", how: "Multiply time output through delegation, automation, and systems." },
+        { name: "Time Opportunity Cost Calculation", tier: "Advanced", rx: "during time allocation decisions", how: "Weigh the cost of each time choice and pick the highest-value option." },
+        { name: "Time Multiplication Through Focus", tier: "Advanced", rx: "during focused work", how: "Use deep focus to multiply effective time; one focused hour equals three distracted ones." },
+        { name: "Time Delegation Protocol", tier: "Advanced", rx: "when scaling or overwhelmed", how: "Delegate what others can do and reserve your time for unique contributions." },
+        { name: "Time Value Maximization", tier: "Advanced", rx: "during activity selection", how: "Optimize the value produced per unit of time, your time ROI." },
+        { name: "Time Legacy Planning", tier: "Advanced", rx: "long-term life planning", how: "Plan time use for lasting impact and meaning." },
+        { name: "Integrated Time Mastery System", tier: "Advanced", rx: "ongoing time lifestyle", how: "Combine all time management techniques into one comprehensive daily system." }
+      ]
+    }
+  ]
+};

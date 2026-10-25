@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["emotionalintelligence"] = {
+  name: "Emotional Intelligence",
+  category: "Core",
+  subdomains: [
+    {
+      name: "Self Awareness",
+      techniques: [
+        { name: "Emotion Labeling Precision", tier: "Beginner", rx: "several × / day", how: "Use granular emotion words (not just 'happy/sad'); increase emotional vocabulary" },
+        { name: "Emotional Baseline Assessment", tier: "Beginner", rx: "daily", how: "Establish your default emotional state; notice deviations from baseline" },
+        { name: "Emotional Energy Assessment", tier: "Beginner", rx: "several × / day", how: "Rate emotional energy level (drained vs energized); manage accordingly" },
+        { name: "Emotional Intelligence Journaling", tier: "Beginner", rx: "10–15 min · end of day", how: "Write daily about emotional experiences, triggers, and responses" },
+        { name: "Emotional Intensity Rating", tier: "Beginner", rx: "during emotional experiences", how: "Rate emotional intensity 1-10; develop calibration for emotional volume" },
+        { name: "Somatic Emotion Tracking", tier: "Intermediate", rx: "2–3 min · when emotions arise, body scan", how: "Locate where emotion manifests in body; track physical sensations" },
+        { name: "Emotional Trigger Mapping", tier: "Intermediate", rx: "2-week tracking period", how: "Identify specific situations, people, words that trigger emotional reactions" },
+        { name: "Emotional Granularity Training", tier: "Intermediate", rx: "daily", how: "Learn to distinguish between similar emotions (frustration vs anger vs annoyance)" },
+        { name: "Affect Forecasting Accuracy", tier: "Intermediate", rx: "before events and after reflection", how: "Predict how you'll feel in future situations; compare to actual feelings; improve accuracy" },
+        { name: "Emotional Pattern Recognition", tier: "Intermediate", rx: "weekly", how: "Identify recurring emotional patterns and cycles; notice when they occur" },
+        { name: "Emotional Responsibility Taking", tier: "Intermediate", rx: "during emotional reactions", how: "Own your emotional responses; avoid blaming others for how you feel" },
+        { name: "Emotional Needs Identification", tier: "Intermediate", rx: "when emotions are intense", how: "Identify underlying needs driving emotions (security, recognition, connection)" },
+        { name: "Emotional Authenticity Check", tier: "Intermediate", rx: "during social interactions", how: "Assess if expressed emotions match internal experience; reduce emotional masking" },
+        { name: "Emotional Contagion Awareness", tier: "Intermediate", rx: "during interactions with emotional people", how: "Notice when you're absorbing others' emotions; maintain emotional boundaries" },
+        { name: "Emotional Body Scan", tier: "Intermediate", rx: "10–20 min · daily", how: "Systematically scan body for emotional tension; release stored emotions" },
+        { name: "Emotional Response Lag Measurement", tier: "Intermediate", rx: "during emotional reactions", how: "Measure time between trigger and emotional response; increase pause" },
+        { name: "Emotional Pattern Interruption", tier: "Intermediate", rx: "when automatic reactions arise", how: "Identify habitual emotional reactions; consciously choose different response" },
+        { name: "Emotional Wisdom Extraction", tier: "Intermediate", rx: "after emotional processing", how: "Extract lessons and wisdom from difficult emotions; find meaning" },
+        { name: "Emotional Boundary Setting", tier: "Intermediate", rx: "during interpersonal interactions", how: "Clearly define what emotions you'll accept from others; protect emotional space" },
+        { name: "Emotional Authenticity Alignment", tier: "Intermediate", rx: "during social interactions", how: "Ensure external expression matches internal experience; reduce emotional dissonance" },
+        { name: "Emotional Intelligence Feedback", tier: "Intermediate", rx: "quarterly", how: "Seek feedback from others on your emotional awareness and regulation" },
+        { name: "Values-Emotion Alignment Check", tier: "Advanced", rx: "during strong emotional reactions", how: "Assess if emotions align with core values; identify misalignment" },
+        { name: "Emotional History Mapping", tier: "Advanced", rx: "during therapy or deep self-reflection", how: "Trace current emotional reactions to past experiences; identify origins" },
+        { name: "Emotional Shadow Work", tier: "Advanced", rx: "monthly", how: "Explore disowned or suppressed emotions; integrate shadow aspects" },
+        { name: "Emotional Prediction Calibration", tier: "Advanced", rx: "before and after significant events", how: "Track accuracy of emotional predictions; improve emotional forecasting" },
+        { name: "Emotional Complexity Tolerance", tier: "Advanced", rx: "during complex emotional situations", how: "Hold multiple conflicting emotions simultaneously; avoid oversimplification" },
+        { name: "Emotional Recovery Speed Tracking", tier: "Advanced", rx: "after each emotional disruption", how: "Measure time to return to baseline after emotional upset; optimize recovery" },
+        { name: "Emotional State Shifting Speed", tier: "Advanced", rx: "during emotional regulation practice", how: "Measure and improve speed of shifting between emotional states" },
+        { name: "Emotional Values Hierarchy", tier: "Advanced", rx: "yearly", how: "Rank emotions by importance to you; prioritize emotional experiences aligned with values" },
+        { name: "Integrated Self-Awareness System", tier: "Advanced", rx: "ongoing", how: "Combine all self-awareness techniques into comprehensive emotional intelligence practice" }
+      ]
+    },
+    {
+      name: "Social Perception",
+      techniques: [
+        { name: "Body Language Decoding", tier: "Intermediate", rx: "during all social interactions", how: "Read posture, gestures, and positioning to understand emotional state" },
+        { name: "Vocal Tone Analysis", tier: "Intermediate", rx: "during conversations", how: "Listen to pitch, pace, and tone variations to detect emotional undercurrents" },
+        { name: "Emotional Contagion Detection", tier: "Intermediate", rx: "during interactions with emotional people", how: "Notice when others' emotions are affecting you; maintain emotional boundaries" },
+        { name: "Baseline Behavior Calibration", tier: "Intermediate", rx: "first few interactions with someone", how: "Establish person's normal behavior patterns; detect deviations indicating emotional shifts" },
+        { name: "Emotional Needs Recognition", tier: "Intermediate", rx: "during interactions", how: "Identify what others need emotionally (validation, space, support) in moment" },
+        { name: "Emotional Timing Sensitivity", tier: "Intermediate", rx: "before initiating difficult conversations", how: "Recognize when someone is emotionally ready to discuss difficult topics" },
+        { name: "Emotional Boundary Recognition", tier: "Intermediate", rx: "during interactions", how: "Detect when others are uncomfortable or crossing emotional boundaries" },
+        { name: "Emotional State Prediction", tier: "Intermediate", rx: "before delivering information", how: "Predict how others will emotionally react to news or situations; prepare accordingly" },
+        { name: "Emotional Energy Reading", tier: "Intermediate", rx: "during social interactions", how: "Sense others' emotional energy levels (drained vs energized); adjust interaction" },
+        { name: "Emotional Context Switching", tier: "Intermediate", rx: "during dynamic interactions", how: "Recognize when emotional context has shifted; adjust responses accordingly" },
+        { name: "Emotional Reciprocity Calibration", tier: "Intermediate", rx: "during relationship building", how: "Match emotional vulnerability and disclosure to other person's level; build trust gradually" },
+        { name: "Emotional Trigger Recognition in Others", tier: "Intermediate", rx: "during interactions", how: "Identify what emotionally triggers others; avoid or navigate triggers skillfully" },
+        { name: "Emotional Pattern Recognition in Others", tier: "Intermediate", rx: "ongoing", how: "Identify recurring emotional patterns in specific people; predict and navigate" },
+        { name: "Emotional Intelligence in Virtual Communication", tier: "Intermediate", rx: "during digital communication", how: "Read emotional cues in text, email, and video calls; compensate for reduced signals" },
+        { name: "Micro-Expression Recognition", tier: "Advanced", rx: "during face-to-face interactions", how: "Identify fleeting facial expressions (1/25 second) revealing true emotions" },
+        { name: "Emotional State Mirroring", tier: "Advanced", rx: "during relationship building", how: "Subtly match others' emotional state to build rapport; then gradually shift to desired state" },
+        { name: "Group Emotional Dynamics Reading", tier: "Advanced", rx: "when entering group settings", how: "Sense emotional atmosphere of group; identify dominant emotions and tensions" },
+        { name: "Cultural Emotional Norms Awareness", tier: "Advanced", rx: "during cross-cultural interactions", how: "Understand cultural differences in emotional expression; avoid misreading" },
+        { name: "Emotional Authenticity Detection", tier: "Advanced", rx: "during important interactions", how: "Distinguish genuine emotions from performed or masked emotions" },
+        { name: "Emotional Contagion Management", tier: "Advanced", rx: "when leading or influencing groups", how: "Consciously spread desired emotional states to others; emotional leadership" },
+        { name: "Emotional Subtext Reading", tier: "Advanced", rx: "during all conversations", how: "Identify unspoken emotional messages beneath surface conversation" },
+        { name: "Emotional Intelligence in Conflict", tier: "Advanced", rx: "during disagreements", how: "Read emotional dynamics during conflict; de-escalate through emotional attunement" },
+        { name: "Emotional Mask Detection", tier: "Advanced", rx: "during important interactions", how: "Identify when others are hiding true emotions behind social masks" },
+        { name: "Emotional Influence Mapping", tier: "Advanced", rx: "during group observation", how: "Identify who emotionally influences whom in group; understand emotional hierarchy" },
+        { name: "Emotional Leakage Detection", tier: "Advanced", rx: "during high-stakes interactions", how: "Spot involuntary emotional signals (fidgeting, voice cracks) revealing true feelings" },
+        { name: "Emotional Atmosphere Shaping", tier: "Advanced", rx: "when hosting or leading gatherings", how: "Consciously create desired emotional atmosphere in spaces you lead" },
+        { name: "Emotional State Anchoring in Others", tier: "Advanced", rx: "during positive interactions", how: "Create positive emotional anchors for yourself in others' minds; become associated with good feelings" },
+        { name: "Emotional Intelligence Feedback Giving", tier: "Advanced", rx: "when addressing emotional dynamics", how: "Provide feedback about others' emotional impact with skill and care" },
+        { name: "Emotional Contagion Immunity", tier: "Advanced", rx: "during interactions with highly emotional people", how: "Maintain emotional stability despite others' emotional chaos; don't get swept up" },
+        { name: "Integrated Social Perception System", tier: "Advanced", rx: "ongoing", how: "Combine all social perception techniques into comprehensive emotional intelligence practice" }
+      ]
+    }
+  ]
+};

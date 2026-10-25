@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["sleepoptimization"] = {
+  name: "Lucid Dreaming & Sleep Optimization",
+  category: "Foundation",
+  subdomains: [
+    {
+      name: "Lucid Dreaming",
+      techniques: [
+        { name: "Reality Checking Protocol", tier: "Beginner", rx: "several times daily", how: "Physically test reality, like pushing a finger through your palm, while seriously questioning whether you are dreaming." },
+        { name: "Dream Journaling Foundation", tier: "Beginner", rx: "on waking, before moving", how: "Record every dream fragment immediately after waking to build strong dream recall." },
+        { name: "Prospective Memory Training", tier: "Beginner", rx: "10–15 min · daily", how: "Train remembering future actions with apps or games to strengthen intention memory for lucidity." },
+        { name: "Lucid Dream Goal Setting", tier: "Beginner", rx: "before sleep", how: "Choose a specific action to perform once lucid so the dream stays focused." },
+        { name: "Binaural Beat Entrainment", tier: "Beginner", rx: "while falling asleep / WBTB", how: "Listen to theta or gamma binaural beats to encourage brainwave states linked to lucid dreaming." },
+        { name: "Lucid Dream Sharing", tier: "Beginner", rx: "weekly", how: "Discuss lucid dreams with a partner or group to reinforce the habit and refine technique." },
+        { name: "Mnemonic Induction of Lucid Dreams (MILD)", tier: "Intermediate", rx: "10 min before sleep", how: "Repeat a mantra like 'I will realize I'm dreaming' while visualizing becoming lucid." },
+        { name: "Wake Back to Bed (WBTB)", tier: "Intermediate", rx: "1–2× / week", how: "Wake after five to six hours, stay up twenty to thirty minutes reading about lucidity, then return to sleep." },
+        { name: "Dream Sign Identification", tier: "Intermediate", rx: "weekly journal review", how: "Spot recurring dream themes during journal review and set intentions to recognize them in-dream." },
+        { name: "Dream Stabilization Techniques", tier: "Intermediate", rx: "when the dream fades", how: "Rub dream hands, spin, or touch the ground to re-engage dream senses and stay lucid." },
+        { name: "Intentional Dream Incubation", tier: "Intermediate", rx: "5 min before sleep", how: "Vividly imagine a desired dream scenario before sleep to shape dream content." },
+        { name: "False Awakening Drills", tier: "Intermediate", rx: "every waking", how: "Perform a reality check every time you wake, since false awakenings often lead to lucidity." },
+        { name: "Sensory Anchoring in Dreams", tier: "Intermediate", rx: "when the dream destabilizes", how: "Focus fully on an object's texture and temperature to ground yourself in the dream." },
+        { name: "Spinning Technique", tier: "Intermediate", rx: "when visuals fade", how: "Spin your dream body to transition into a new, stable dream scene." },
+        { name: "Lucid Dream Exit Strategy", tier: "Intermediate", rx: "when ending the dream", how: "Pre-plan how to wake, such as squeezing dream eyes shut, to avoid sleep paralysis." },
+        { name: "Hypnagogic Observation", tier: "Intermediate", rx: "during sleep onset", how: "Passively watch the images and sounds that appear while falling asleep." },
+        { name: "Dream Sign Meditation", tier: "Intermediate", rx: "10 min · daily", how: "Meditate on a common dream sign while visualizing recognizing it and becoming lucid." },
+        { name: "Dream Clarity Command", tier: "Intermediate", rx: "in-dream, as needed", how: "Loudly command the dream to increase clarity and brightness when visuals blur or darken." },
+        { name: "Wake-Initiated Lucid Dream (WILD)", tier: "Advanced", rx: "during naps / after WBTB", how: "Keep the mind awake while the body falls asleep, entering the dream directly from wakefulness." },
+        { name: "All-Day Awareness (ADA)", tier: "Advanced", rx: "throughout the day", how: "Consciously observe sensory details of waking life so mindfulness carries into dreams." },
+        { name: "Dream Control Progression", tier: "Advanced", rx: "across successive lucid dreams", how: "Start by controlling small objects, then progress to whole dream environments." },
+        { name: "Subconscious Dialogue", tier: "Advanced", rx: "when stable in a lucid dream", how: "Ask dream characters direct questions to gain psychological insight." },
+        { name: "Expectation Manipulation", tier: "Advanced", rx: "while navigating a lucid dream", how: "Fully expect doors to lead somewhere specific to enable instant dream travel." },
+        { name: "Sleep Paralysis Reframing", tier: "Advanced", rx: "when waking immobile", how: "Reframe sleep paralysis fear as a portal into lucid dreaming." },
+        { name: "Dream Yoga Integration", tier: "Advanced", rx: "ongoing advanced practice", how: "Use Tibetan Dream Yoga methods, meditating on the illusory nature of the dream." },
+        { name: "Galantamine Supplementation", tier: "Advanced", rx: "WBTB only, max 1–2× / week", how: "Take this acetylcholinesterase inhibitor to raise acetylcholine for vivid lucid dreams." },
+        { name: "Lucid Dream Skill Rehearsal", tier: "Advanced", rx: "when stable and in control", how: "Practice waking-life skills inside dreams to leverage neuroplasticity." },
+        { name: "Fear Confrontation Protocol", tier: "Advanced", rx: "during nightmares", how: "Turn, face the threat, and ask what it wants, converting nightmares into growth." },
+        { name: "Time Dilation Practice", tier: "Advanced", rx: "when stable in a lucid dream", how: "Slow subjective time to experience long dream durations within brief sleep." },
+        { name: "Integrated Lucid Dreaming System", tier: "Advanced", rx: "ongoing", how: "Combine daily reality checks, journaling, WBTB, and MILD into one progressive regimen." }
+      ]
+    },
+    {
+      name: "Sleep Quality",
+      techniques: [
+        { name: "Circadian Rhythm Anchoring", tier: "Beginner", rx: "daily, fixed wake time", how: "Wake at the same time every single day, weekends included, to stabilize the internal clock." },
+        { name: "Morning Sunlight Exposure", tier: "Beginner", rx: "10–30 min · within 30 min of waking", how: "Get outdoor light in your eyes soon after waking to suppress melatonin and anchor circadian rhythm." },
+        { name: "Blue Light Elimination", tier: "Beginner", rx: "2–3 h before bed", how: "Block screen and LED blue light with amber glasses or filters so melatonin is not inhibited." },
+        { name: "Caffeine Curfew Enforcement", tier: "Beginner", rx: "daily, by early afternoon", how: "Cut off caffeine ten to twelve hours before bedtime so it is fully metabolized before sleep." },
+        { name: "Sleep Environment Blackout", tier: "Beginner", rx: "nightly", how: "Make the bedroom pitch dark using blackout curtains or a sleep mask." },
+        { name: "Consistent Pre-Sleep Routine", tier: "Beginner", rx: "30–60 min before bed · nightly", how: "Repeat the same wind-down sequence nightly to build a Pavlovian sleep trigger." },
+        { name: "Magnesium Supplementation", tier: "Beginner", rx: "200–400 mg · 30 min before bed", how: "Take magnesium threonate or bisglycinate to promote relaxation and GABA activity." },
+        { name: "White/Pink/Brown Noise Masking", tier: "Beginner", rx: "throughout the night", how: "Play continuous ambient noise to mask sounds that cause micro-awakenings." },
+        { name: "Hydration Front-Loading", tier: "Beginner", rx: "throughout the day", how: "Drink most water early and taper two hours before bed to avoid nighttime bathroom trips." },
+        { name: "Physiological Sighing for Sleep", tier: "Beginner", rx: "3–5 breaths in bed", how: "Do double-inhale, long-exhale sighs while falling asleep to slow heart rate and activate the vagus nerve." },
+        { name: "Tactile Grounding (Weighted Blanket)", tier: "Beginner", rx: "all night", how: "Sleep under a blanket near ten percent of body weight for deep-pressure nervous system calming." },
+        { name: "Sleep Environment Scent Anchoring", tier: "Beginner", rx: "during pre-sleep routine", how: "Use a calming scent like lavender only in the bedroom to condition sleepiness." },
+        { name: "Sleep Inertia Mitigation", tier: "Beginner", rx: "immediately on waking", how: "Hydrate, get light, and move right away to shake off morning grogginess." },
+        { name: "Pre-Sleep Gratitude Reflection", tier: "Beginner", rx: "in bed, eyes closed", how: "Reflect on three specific gratitudes to shift from problem-solving into positive affect." },
+        { name: "Core Temperature Drop Protocol", tier: "Intermediate", rx: "1–2 h before bed", how: "Cool the bedroom to about 65°F and take a warm shower so the cool-down afterward triggers sleep." },
+        { name: "Alcohol Sleep Disruption Avoidance", tier: "Intermediate", rx: "evenings, 3–4 h from bed", how: "Skip alcohol within three to four hours of bed to protect REM sleep and continuity." },
+        { name: "Cognitive Offloading (Brain Dump)", tier: "Intermediate", rx: "1–2 h before bed", how: "Write out worries and to-dos so the brain stops looping on them at night." },
+        { name: "NSDR (Non-Sleep Deep Rest) Protocol", tier: "Intermediate", rx: "10–20 min · when sleepless", how: "Follow a Yoga Nidra or NSDR audio track to downshift into parasympathetic mode." },
+        { name: "Adenosine Build-Up Maximization", tier: "Intermediate", rx: "daytime, first 8–10 h", how: "Avoid naps during the day so sleep pressure builds strongly by bedtime." },
+        { name: "Late-Night Exercise Restriction", tier: "Intermediate", rx: "daily workout scheduling", how: "Avoid vigorous cardio within two to three hours of bed; keep evenings to light stretching or walking." },
+        { name: "Bed-Only Association Rule", tier: "Intermediate", rx: "ongoing daily habit", how: "Use the bed only for sleep and sex so the brain links bed with sleeping." },
+        { name: "The 20-Minute Rule", tier: "Intermediate", rx: "when insomnia hits", how: "After twenty minutes awake, leave bed and do something boring in dim light until sleepy." },
+        { name: "Evening Carbohydrate Timing", tier: "Intermediate", rx: "with dinner", how: "Eat complex carbs at dinner to help tryptophan cross into the brain for serotonin and melatonin production." },
+        { name: "Sleep Architecture Tracking", tier: "Intermediate", rx: "daily on waking", how: "Use a wearable like Oura, Whoop, or Apple Watch to monitor deep and REM sleep and adjust habits." },
+        { name: "Nasal Breathing Enforcement", tier: "Intermediate", rx: "nightly", how: "Use mouth tape or dilators to breathe nasally for better oxygenation and less snoring." },
+        { name: "Cortisol Awakening Response Management", tier: "Intermediate", rx: "day after a 3 AM waking", how: "Skip morning caffeine, get sunlight, and do NSDR to reset a dysregulated HPA axis." },
+        { name: "Weekend Sleep Debt Strategy", tier: "Intermediate", rx: "weekends", how: "Cap sleep-ins at one to two hours past normal wake time to avoid social jetlag." },
+        { name: "Sleep Restriction Therapy", tier: "Advanced", rx: "2–4 weeks · guided", how: "Restrict time in bed to actual sleep duration to build efficiency, then gradually expand; for chronic insomnia." },
+        { name: "Circadian Fasting Window", tier: "Advanced", rx: "daily eating schedule", how: "Confine eating to daylight hours, such as 10 AM to 6 PM, so late digestion does not block core temperature drop." },
+        { name: "Integrated Sleep Optimization System", tier: "Advanced", rx: "ongoing", how: "Combine anchoring, light, temperature, and cognitive offloading into one full nightly protocol." }
+      ]
+    }
+  ]
+};

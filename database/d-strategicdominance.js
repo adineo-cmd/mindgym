@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["strategicdominance"] = {
+  name: "Strategic Dominance",
+  category: "Cognition",
+  subdomains: [
+    {
+      name: "Power Dynamics",
+      techniques: [
+        { name: "Power Mapping Exercise", tier: "Intermediate", rx: "entering a new organization or project", how: "Map formal and informal power holders and their influence relationships." },
+        { name: "Authority Projection", tier: "Intermediate", rx: "when leading meetings", how: "Use body language, tone, and decisiveness to embody role authority." },
+        { name: "Institutional Knowledge Leverage", tier: "Intermediate", rx: "ongoing career development", how: "Become the indispensable expert on critical or legacy systems." },
+        { name: "Gatekeeper Navigation", tier: "Intermediate", rx: "when seeking high-level approval", how: "Build relationships with those controlling access to decision-makers." },
+        { name: "Legitimacy Building", tier: "Intermediate", rx: "when assuming a leadership role", how: "Ensure power use is seen as fair, competent, and value-aligned." },
+        { name: "Soft Power Cultivation", tier: "Intermediate", rx: "ongoing", how: "Influence via attraction and persuasion rather than coercion." },
+        { name: "Alliance Formation", tier: "Intermediate", rx: "facing a common adversary or large goal", how: "Partner with other powerful actors to multiply strength." },
+        { name: "Status Game Recognition", tier: "Intermediate", rx: "during meetings or conflicts", how: "Spot status-driven interactions and redirect to actual outcomes." },
+        { name: "Institutional Rule Mastery", tier: "Intermediate", rx: "entering a new company or culture", how: "Learn formal and informal norms to avoid cultural landmines." },
+        { name: "Power Preservation Strategy", tier: "Intermediate", rx: "ongoing leadership", how: "Avoid overextension and keep demonstrating value." },
+        { name: "Succession Planning", tier: "Intermediate", rx: "at a stable leadership position", how: "Groom future leaders to protect legacy and continuity." },
+        { name: "Dependency Analysis", tier: "Advanced", rx: "during negotiations or organizational design", how: "Determine who needs what from whom to find leverage points." },
+        { name: "Coalition Building", tier: "Advanced", rx: "before proposing major changes", how: "Align stakeholders into a majority bloc for political capital." },
+        { name: "Power Vacuum Identification", tier: "Advanced", rx: "during restructuring or crises", how: "Fill unclaimed areas of leadership or responsibility." },
+        { name: "Influence Network Mapping", tier: "Advanced", rx: "when shifting culture or opinions", how: "Track who listens to whom; informal influencers matter." },
+        { name: "Resource Control Strategy", tier: "Advanced", rx: "during planning and budgeting", how: "Control budgets, headcount, and tools for structural power." },
+        { name: "Power Transition Management", tier: "Advanced", rx: "for promotion or departure", how: "Execute a smooth power transfer to preserve legacy." },
+        { name: "Hard Power Deterrence", tier: "Advanced", rx: "for severe violations", how: "Maintain capacity to enforce rules and penalize non-compliance." },
+        { name: "Information Asymmetry Exploitation", tier: "Advanced", rx: "during negotiations or planning", how: "Use unique or timely information to guide outcomes." },
+        { name: "Power Consolidation", tier: "Advanced", rx: "when scaling or stabilizing", how: "Centralize authority and reduce rival dependencies." },
+        { name: "Decentralized Power Navigation", tier: "Advanced", rx: "in flat or matrixed organizations", how: "Influence without formal authority via persuasion." },
+        { name: "Power Surrender Tactics", tier: "Advanced", rx: "when scaling a team", how: "Strategically delegate power to build trust and capacity." },
+        { name: "Power Base Diversification", tier: "Advanced", rx: "ongoing career strategy", how: "Build multiple power sources to avoid single reliance." },
+        { name: "Power Broker Engagement", tier: "Advanced", rx: "for rapid advancement or deals", how: "Build ties with well-connected deal-brokers." },
+        { name: "Narrative Control", tier: "Advanced", rx: "during change management or crises", how: "Shape the story around actions and direction." },
+        { name: "Power Dynamic Shifting", tier: "Advanced", rx: "during stalemates", how: "Alter the power balance by changing context or alternatives." },
+        { name: "Elite Network Access", tier: "Advanced", rx: "mid-to-late career", how: "Join exclusive groups where decisions are made informally." },
+        { name: "Coercion Resistance", tier: "Advanced", rx: "facing aggressive negotiations", how: "Withstand pressure, threats, or ultimatums calmly." },
+        { name: "Power Ethics Calibration", tier: "Advanced", rx: "before exercising influence", how: "Ensure power use aligns with values, not ego." },
+        { name: "Integrated Power Dynamics System", tier: "Advanced", rx: "ongoing", how: "Combine mapping, leverage, coalitions, and narrative control." }
+      ]
+    },
+    {
+      name: "Leverage Architecture",
+      techniques: [
+        { name: "Resource Multiplication", tier: "Intermediate", rx: "during growth phases", how: "Use existing resources to generate more resources." },
+        { name: "Constraint Removal", tier: "Intermediate", rx: "when growth stalls", how: "Eliminate the biggest system bottleneck." },
+        { name: "Switching Cost Creation", tier: "Intermediate", rx: "during product design", how: "Increase friction for leaving your ecosystem." },
+        { name: "Platform Leverage", tier: "Intermediate", rx: "when launching products", how: "Build atop massive platforms for instant distribution." },
+        { name: "Time Leverage Maximization", tier: "Intermediate", rx: "ongoing", how: "Delegate or automate low-ROI tasks for high-ROI focus." },
+        { name: "Intellectual Property Leverage", tier: "Intermediate", rx: "during product and content creation", how: "Create replicable assets with zero marginal cost." },
+        { name: "Relationship Leverage", tier: "Intermediate", rx: "when facing roadblocks", how: "Use network and social capital to open doors." },
+        { name: "Leverage Decay Prevention", tier: "Intermediate", rx: "quarterly reviews", how: "Continuously maintain leverage points as they erode." },
+        { name: "Minimal Effective Dose Leverage", tier: "Intermediate", rx: "in constrained operations", how: "Apply the smallest force needed for the desired systemic shift." },
+        { name: "Leverage Diversification", tier: "Intermediate", rx: "long-term strategy", how: "Build a portfolio of advantages across domains." },
+        { name: "Leverage Point Identification", tier: "Advanced", rx: "during strategic planning", how: "Find small shifts producing massive system change." },
+        { name: "Asymmetric Advantage Creation", tier: "Advanced", rx: "entering new markets or negotiations", how: "Cap the downside while keeping massive upside." },
+        { name: "Strategic Positioning", tier: "Advanced", rx: "before launches or negotiations", how: "Occupy positions where the rules favor your strengths." },
+        { name: "Compounding Influence", tier: "Advanced", rx: "long-term strategy", how: "Build assets with increasing returns over time." },
+        { name: "Bottleneck Exploitation", tier: "Advanced", rx: "in constrained markets", how: "Control or profit from bottlenecks you cannot remove." },
+        { name: "Network Effect Activation", tier: "Advanced", rx: "during platform design", how: "Design products where new users add value to all." },
+        { name: "Information Leverage", tier: "Advanced", rx: "in trading, strategy, or negotiations", how: "Use superior data and speed for better, faster decisions." },
+        { name: "Financial Leverage Optimization", tier: "Advanced", rx: "during investments or scaling", how: "Use debt or equity to amplify returns on low-risk bets." },
+        { name: "Brand Leverage", tier: "Advanced", rx: "ongoing marketing", how: "Build reputation enabling premium pricing and expansion." },
+        { name: "Attention Leverage", tier: "Advanced", rx: "during marketing or leadership", how: "Capture scarce human attention for impact." },
+        { name: "Data Leverage", tier: "Advanced", rx: "during product operations", how: "Collect proprietary data as a competitive moat." },
+        { name: "Leverage Stacking", tier: "Advanced", rx: "when designing business models", how: "Combine code, media, capital, and labor simultaneously." },
+        { name: "Counter-Leverage Defense", tier: "Advanced", rx: "holding a strong position", how: "Anticipate and defend against leverage neutralization." },
+        { name: "Leverage Conversion", tier: "Advanced", rx: "during business model evolution", how: "Translate one leverage form into another." },
+        { name: "Leverage Timing Optimization", tier: "Advanced", rx: "during launches or negotiations", how: "Deploy leverage at the most receptive moment." },
+        { name: "Hidden Leverage Discovery", tier: "Advanced", rx: "during strategic audits", how: "Find non-obvious assets for disproportionate gain." },
+        { name: "Leverage Scaling", tier: "Advanced", rx: "when designing systems", how: "Ensure mechanisms handle 100x volume without breaking." },
+        { name: "Leverage Ethics Alignment", tier: "Advanced", rx: "before aggressive strategies", how: "Ensure leverage creates positive-sum outcomes." },
+        { name: "Leverage Exit Strategy", tier: "Advanced", rx: "when building a major asset", how: "Plan monetization or exit from built leverage." },
+        { name: "Integrated Leverage Architecture System", tier: "Advanced", rx: "ongoing", how: "Combine identification, creation, stacking, and scaling of leverage." }
+      ]
+    }
+  ]
+};

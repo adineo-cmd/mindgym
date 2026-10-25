@@ -1,0 +1,77 @@
+window.DB_TECHNIQUES = window.DB_TECHNIQUES || {};
+window.DB_TECHNIQUES["groupdynamics"] = {
+  name: "Leadership & Group Dynamics",
+  category: "Social",
+  subdomains: [
+    {
+      name: "Crowd Psychology",
+      techniques: [
+        { name: "Emotional Contagion Mapping", tier: "Intermediate", rx: "when entering group settings", how: "Identify the dominant emotion in a crowd and understand how it spreads through nonverbal cues." },
+        { name: "Collective Effervescence Cultivation", tier: "Intermediate", rx: "during team building & events", how: "Use music, synchronized movement, or shared rituals to create powerful, unifying group energy." },
+        { name: "Social Proof Utilization", tier: "Intermediate", rx: "when driving group adoption", how: "Leverage the crowd's tendency to look to others for correct behavior in ambiguous situations." },
+        { name: "Bystander Effect Mitigation", tier: "Intermediate", rx: "when needing group action", how: "Assign specific, direct responsibility to individuals to prevent diffusion of responsibility in a crowd." },
+        { name: "Synchronized Action Facilitation", tier: "Intermediate", rx: "during group exercises", how: "Use clear, simple, rhythmic cues to get a large group to act in perfect unison." },
+        { name: "Group Identity Amplification", tier: "Intermediate", rx: "when building movements & teams", how: "Reinforce the us-versus-them or shared-values narrative to strengthen group cohesion and loyalty." },
+        { name: "Ritual and Chant Utilization", tier: "Intermediate", rx: "during rallies & huddles", how: "Use repetitive, simple rituals or chants to bypass the rational brain and unify the group's subconscious." },
+        { name: "Crowd Fatigue Monitoring", tier: "Intermediate", rx: "during long events", how: "Track a group's physical and emotional exhaustion so you know when to break or disperse." },
+        { name: "Social Loafing Prevention", tier: "Intermediate", rx: "during group projects", how: "Make individual contributions visible and identifiable so no one hides in the group effort." },
+        { name: "Crowd Leadership Emergence", tier: "Intermediate", rx: "when organizing new groups", how: "Identify and empower the natural, informal leaders within a crowd to guide the rest effectively." },
+        { name: "Group Cohesion Building", tier: "Intermediate", rx: "during team formation", how: "Create shared hardships, inside jokes, and common goals to forge unbreakable bonds within the group." },
+        { name: "Deindividuation Awareness", tier: "Advanced", rx: "in crowds & online mobs", how: "Recognize when individuals in a crowd lose their sense of personal responsibility and identity." },
+        { name: "Mob Mentality Prevention", tier: "Advanced", rx: "when leading through crisis", how: "Actively encourage critical thinking and individual voice to keep the group from descending into irrationality." },
+        { name: "Crowd Flow Management", tier: "Advanced", rx: "during events & evacuations", how: "Understand and direct the physical movement of large groups using subtle environmental and social cues." },
+        { name: "Group Polarization Navigation", tier: "Advanced", rx: "during decision meetings", how: "Recognize that group discussion amplifies the members' initial leaning, and moderate accordingly." },
+        { name: "Herd Behavior Prediction", tier: "Advanced", rx: "during panics & trends", how: "Anticipate how a crowd will react to stimuli based on basic survival and social instincts." },
+        { name: "Crowd Energy Direction", tier: "Advanced", rx: "with passionate crowds", how: "Act as a lightning rod to absorb, redirect, or amplify the emotional energy of a large group." },
+        { name: "Panic De-escalation", tier: "Advanced", rx: "during emergencies", how: "Project extreme calm, use loud clear commands, and provide a specific exit path to stop crowd panic." },
+        { name: "Out-Group Hostility Reduction", tier: "Advanced", rx: "in inter-group conflicts", how: "Introduce shared goals or humanizing elements to reduce conflict between rival groups or factions." },
+        { name: "Crowd Size Perception Management", tier: "Advanced", rx: "during event production", how: "Use spatial arrangement, lighting, and grouping to make a small crowd feel massive or a massive one intimate." },
+        { name: "Information Cascade Triggering", tier: "Advanced", rx: "when launching trends", how: "Seed a behavior or belief with a small, highly visible group to trigger rapid mass adoption." },
+        { name: "Groupthink Mitigation", tier: "Advanced", rx: "in high-stakes planning", how: "Assign a devil's advocate, encourage anonymous feedback, and bring in outside experts to challenge consensus." },
+        { name: "Crowd Segmentation", tier: "Advanced", rx: "for large communities", how: "Divide a massive, unmanageable crowd into smaller, focused, and manageable sub-groups or tribes." },
+        { name: "Symbolic Action Orchestration", tier: "Advanced", rx: "during milestones & protests", how: "Design highly visual, symbolic acts that encapsulate the group's values and create lasting shared memories." },
+        { name: "Crowd Memory Formation", tier: "Advanced", rx: "when planning experiences", how: "Design around the fact that crowds remember emotional peaks and endings, not duration." },
+        { name: "Mass Hysteria Prevention", tier: "Advanced", rx: "during safety scares", how: "Control information flow, project calm authority, and isolate the panic source to prevent mass psychogenic illness." },
+        { name: "Collective Trauma Navigation", tier: "Advanced", rx: "after tragedies", how: "Guide a group through shared grief or shock by providing structure, validation, and a path to meaning." },
+        { name: "Crowd Dispersal Tactics", tier: "Advanced", rx: "at event endings", how: "Use environmental changes, fatigue, or shifting attention to peacefully and efficiently break up a crowd." },
+        { name: "Digital Crowd Dynamics", tier: "Advanced", rx: "in online communities", how: "Apply crowd psychology principles to online communities, social media mobs, and viral trends." },
+        { name: "Integrated Crowd Psychology System", tier: "Advanced", rx: "ongoing", how: "Combine emotional mapping, identity building, and flow management to masterfully lead any mass gathering." }
+      ]
+    },
+    {
+      name: "Team Architecture",
+      techniques: [
+        { name: "Team Identity Forging", tier: "Beginner", rx: "during team formation", how: "Create a unique name, mission, or narrative that makes the team feel distinct and special." },
+        { name: "Team Ritual Creation", tier: "Beginner", rx: "ongoing culture building", how: "Establish recurring, meaningful routines like standups, demos, or anniversary celebrations to create rhythm." },
+        { name: "Team Celebration Practices", tier: "Beginner", rx: "after sprints & launches", how: "Deliberately and frequently recognize both small wins and massive milestones to reinforce desired behaviors." },
+        { name: "Role Optimization Matrix", tier: "Intermediate", rx: "at formation & quarterly reviews", how: "Map each member's cognitive strengths, motivations, and weaknesses to their specific responsibilities." },
+        { name: "Communication Protocol Design", tier: "Intermediate", rx: "during onboarding & setup", how: "Establish clear rules for which channels are used for which types of information." },
+        { name: "Cognitive Diversity Integration", tier: "Intermediate", rx: "during team composition", how: "Deliberately include different thinking styles, analytical, creative, and pragmatic, to prevent blind spots." },
+        { name: "Team Norm Establishment", tier: "Intermediate", rx: "at team kickoff", how: "Explicitly define and agree upon the unwritten rules of behavior, work ethic, and interaction." },
+        { name: "Feedback Loop Optimization", tier: "Intermediate", rx: "ongoing · in 1-on-1s", how: "Create rapid, continuous, bidirectional feedback mechanisms between team members and leadership." },
+        { name: "Trust Building Rituals", tier: "Intermediate", rx: "during formation & bonding", how: "Design consistent, vulnerable, shared experiences that accelerate deep interpersonal trust." },
+        { name: "Skill Gap Analysis", tier: "Intermediate", rx: "during annual planning", how: "Objectively assess the team's current capabilities against the future requirements of the mission." },
+        { name: "Performance Metrics Alignment", tier: "Intermediate", rx: "during goal setting", how: "Ensure every member's individual metrics ladder up directly to shared team and company objectives." },
+        { name: "Knowledge Sharing Systems", tier: "Intermediate", rx: "ongoing", how: "Build repositories, documentation habits, and lunch-and-learns to prevent knowledge silos and bus-factor risks." },
+        { name: "Team Onboarding Optimization", tier: "Intermediate", rx: "when hiring", how: "Design a structured 30-60-90 day plan that rapidly integrates new hires into culture and technical stack." },
+        { name: "Team Offboarding Protocol", tier: "Intermediate", rx: "at departures", how: "Manage departures with grace, conduct thorough exit interviews, and redistribute knowledge smoothly." },
+        { name: "Team Innovation Facilitation", tier: "Intermediate", rx: "during development cycles", how: "Dedicate specific time, resources, and psychological safety for the team to experiment with new ideas." },
+        { name: "Team Accountability Systems", tier: "Intermediate", rx: "during project execution", how: "Create transparent tracking of commitments, since peer accountability is stronger than boss accountability." },
+        { name: "Psychological Safety Cultivation", tier: "Advanced", rx: "ongoing", how: "Create an environment where members can take risks, admit mistakes, and voice dissent without fear." },
+        { name: "Conflict Resolution Framework", tier: "Advanced", rx: "when tensions arise", how: "Implement a structured process for addressing interpersonal or ideological conflicts constructively." },
+        { name: "High-Performance Team Design", tier: "Advanced", rx: "during hiring & staffing", how: "Build teams with complementary skills, shared goals, and high accountability, avoiding homogeneous groups." },
+        { name: "Decision-Making Architecture", tier: "Advanced", rx: "during org design", how: "Define exactly how decisions are made, whether consensus, consultative, or autocratic, for each choice type." },
+        { name: "Shared Mental Model Development", tier: "Advanced", rx: "at kickoffs & strategic shifts", how: "Ensure every member holds the same fundamental understanding of the goal, strategy, and constraints." },
+        { name: "Cross-Functional Integration", tier: "Advanced", rx: "on multi-disciplinary projects", how: "Break down silos by embedding members of different departments into shared squads or projects." },
+        { name: "Team Autonomy Calibration", tier: "Advanced", rx: "during delegation", how: "Give the team the what and the why but let them figure out the how, adjusting for maturity." },
+        { name: "Team Resilience Building", tier: "Advanced", rx: "during crises", how: "Stress-test the team with challenging goals and navigate failures together to build collective grit." },
+        { name: "Remote Team Cohesion", tier: "Advanced", rx: "for remote & hybrid teams", how: "Over-index on asynchronous communication, intentional social time, and clear documentation for distributed teams." },
+        { name: "Team Energy Management", tier: "Advanced", rx: "after major sprints", how: "Monitor collective burnout and mandate time off, reduce scope, or celebrate wins to restore energy." },
+        { name: "Team Conflict Transformation", tier: "Advanced", rx: "when friction occurs", how: "Reframe interpersonal conflicts as opportunities to clarify processes, roles, or communication gaps." },
+        { name: "Team Evolution Planning", tier: "Advanced", rx: "during growth planning", how: "Anticipate how the team's structure and needs will change as the organization scales." },
+        { name: "Team Dysfunction Diagnosis", tier: "Advanced", rx: "when performance drops", how: "Use frameworks like Lencioni's Five Dysfunctions to identify and cure toxicity or fear of conflict." },
+        { name: "Integrated Team Architecture System", tier: "Advanced", rx: "ongoing", how: "Combine role design, psychological safety, communication protocols, and rituals into a masterful operating system." }
+      ]
+    }
+  ]
+};
